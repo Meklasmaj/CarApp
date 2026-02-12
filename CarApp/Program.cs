@@ -8,6 +8,9 @@
             String model = "";
             int year = 0;
             char geartype = ' ';
+            char fueltype = ' ';
+            double kmPrL = 0;
+            int kmNow = 0;
 
             Console.WriteLine("Instast bilmærke:");
             brand = Console.ReadLine();
@@ -21,9 +24,18 @@
             Console.WriteLine("Instast geartype, (A) for automatisk, (M) for manuel:");
             geartype = Console.ReadLine()[0];
 
+            Console.WriteLine("Hvilken type brændstof kører bilen på? (B) Benzin / (D) Diesel");
+            fueltype = Console.ReadLine()[0];
+
+            Console.WriteLine("Hvor langt kører bilen på literen?");
+            kmPrL = double.Parse(Console.ReadLine());
+
+            Console.WriteLine("Hvor mange kilometer har bilen kørt nu?");
+            kmNow = int.Parse(Console.ReadLine());
+
             Console.Clear();
 
-            Console.WriteLine($"{brand} {model} fra {year} har gear: {geartype}");
+            Console.WriteLine($"{brand} {model} fra {year} har gear: {geartype}, den kører på {fueltype}, med {kmPrL} km/l og har indtil nu kørt {kmNow}km");
             
             Console.ReadLine();
         }
