@@ -49,7 +49,7 @@
                 tripCost = distance / kmPrL * dieselPrice;
             }
 
-            Console.WriteLine($"Turen på {distance}km, kommer til at koste {tripCost}kr");
+            Console.WriteLine($"Turen på {distance}km, kommer til at koste {tripCost:F2}kr");
             Console.ReadLine();
 
             Math.Floor(distance);
