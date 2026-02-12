@@ -1,0 +1,14 @@
+E:\Datamatiker\Programmering\Projects\CarApp\CarApp\bin\Debug\net10.0\CarApp.exe
+E:\Datamatiker\Programmering\Projects\CarApp\CarApp\bin\Debug\net10.0\CarApp.deps.json
+E:\Datamatiker\Programmering\Projects\CarApp\CarApp\bin\Debug\net10.0\CarApp.runtimeconfig.json
+E:\Datamatiker\Programmering\Projects\CarApp\CarApp\bin\Debug\net10.0\CarApp.dll
+E:\Datamatiker\Programmering\Projects\CarApp\CarApp\bin\Debug\net10.0\CarApp.pdb
+E:\Datamatiker\Programmering\Projects\CarApp\CarApp\obj\Debug\net10.0\CarApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\Datamatiker\Programmering\Projects\CarApp\CarApp\obj\Debug\net10.0\CarApp.AssemblyInfoInputs.cache
+E:\Datamatiker\Programmering\Projects\CarApp\CarApp\obj\Debug\net10.0\CarApp.AssemblyInfo.cs
+E:\Datamatiker\Programmering\Projects\CarApp\CarApp\obj\Debug\net10.0\CarApp.csproj.CoreCompileInputs.cache
+E:\Datamatiker\Programmering\Projects\CarApp\CarApp\obj\Debug\net10.0\CarApp.dll
+E:\Datamatiker\Programmering\Projects\CarApp\CarApp\obj\Debug\net10.0\refint\CarApp.dll
+E:\Datamatiker\Programmering\Projects\CarApp\CarApp\obj\Debug\net10.0\CarApp.pdb
+E:\Datamatiker\Programmering\Projects\CarApp\CarApp\obj\Debug\net10.0\CarApp.genruntimeconfig.cache
+E:\Datamatiker\Programmering\Projects\CarApp\CarApp\obj\Debug\net10.0\ref\CarApp.dll
