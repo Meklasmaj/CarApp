@@ -58,7 +58,15 @@
             // Ending
             Console.Clear();
 
-            Console.WriteLine($"{brand} {model} fra {year} har gear: {geartype}, den kører på {fueltype}, med {kmPrL} km/l og har nu kørt {kmNow}km");
+            string brandLabel = "Bilmærke".PadRight(12);
+            string modelLabel = "Model".PadRight(12);
+            string kmLabel = "Kilometertal";
+            Console.WriteLine($"{brandLabel}|{modelLabel}|{kmLabel}");
+            Console.WriteLine("---------------------------------------");
+            string carInfo = String.Format("{0}|{1}|{2:F0}km", brand.PadRight(12), model.PadRight(12), kmNow);
+            Console.WriteLine(carInfo);
+
+            //Console.WriteLine($"{brand} {model} fra {year} har gear: {geartype}, den kører på {fueltype}, med {kmPrL} km/l og har nu kørt {kmNow}km");
             
             Console.ReadLine();
         }
