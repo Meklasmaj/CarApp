@@ -27,7 +27,7 @@ namespace CarApp
                 Console.WriteLine("3: Er kilometertallet palindrom?");
                 Console.WriteLine("4: Udskriv biloplysninger for sidste bil");
                 Console.WriteLine("5: Udskriv alle biloplysninger\n");
-                Console.WriteLine("6: Luk Programmet");
+                Console.WriteLine("6: Luk Programmet\n");
 
                 int answer = Convert.ToInt32(Console.ReadLine());
 
@@ -64,6 +64,7 @@ namespace CarApp
                         break;
                 }
 
+                Console.WriteLine("\nTryk enter igen for at gå videre!\n");
                 Console.ReadLine();
                 Console.Clear();
             }
@@ -127,7 +128,7 @@ namespace CarApp
 
             for (int i = km.ToString().Length; i != 0; i--)
             {
-                reverse += km.ToString()[i];
+                reverse += km.ToString()[i - 1];
             }
 
             if (km.ToString() == reverse)
@@ -147,9 +148,9 @@ namespace CarApp
             string yearLabel = "Årgang".PadRight(12);
             string kmLabel = "Kilometertal";
             Console.WriteLine($"{brandLabel}|{modelLabel}|{yearLabel}|{kmLabel}");
-            Console.WriteLine("---------------------------------------");
+            Console.WriteLine("-----------------------------------------------------");
             string carInfo = String.Format("{0}|{1}|{2:F0}km", brands[brands.Count - 1].PadRight(12),
-                models[models.Count - 1].PadRight(12), years[years.Count - 1].ToString().PadRight(12), odometers[odometers.Count - 1]);
+                models[models.Count - 1].PadRight(12), years[years.Count - 1].ToString().PadRight(12), odometers[odometers.Count - 1].ToString());
             Console.WriteLine(carInfo);
         }
 
@@ -160,11 +161,11 @@ namespace CarApp
             string yearLabel = "Årgang".PadRight(12);
             string kmLabel = "Kilometertal";
             Console.WriteLine($"{brandLabel}|{modelLabel}|{yearLabel}|{kmLabel}");
-            Console.WriteLine("---------------------------------------");
+            Console.WriteLine("-----------------------------------------------------");
             for (int i = 0; i < brands.Count; i++)
             {
                 string carInfo = String.Format("{0}|{1}|{2:F0}km", brands[i].PadRight(12),
-                models[i].PadRight(12), years[i].ToString().PadRight(12), odometers[i]);
+                models[i].PadRight(12), years[i].ToString().PadRight(12), odometers[i].ToString());
                 Console.WriteLine(carInfo);
             }
         }
