@@ -67,7 +67,7 @@
             Console.WriteLine(carInfo);
 
             //Console.WriteLine($"{brand} {model} fra {year} har gear: {geartype}, den kører på {fueltype}, med {kmPrL} km/l og har nu kørt {kmNow}km");
-            
+
             Console.ReadLine();
         }
     }
