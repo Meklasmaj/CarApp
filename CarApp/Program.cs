@@ -82,7 +82,13 @@ namespace CarApp
 
         static bool IsPalindrome(int km)
         {
-            string reverse = new string(km.ToString().Reverse().ToArray());
+            string reverse = "";
+
+            for(int i = km.ToString().Length; i != 0; i--)
+            {
+                reverse += km.ToString()[i];
+            }
+
             if (km.ToString() == reverse)
             {
                 return true;
@@ -104,6 +110,22 @@ namespace CarApp
             string carInfo = String.Format("{0}|{1}|{2:F0}km", brands[brands.Count - 1].PadRight(12),
                 models[models.Count - 1].PadRight(12), years[years.Count - 1].ToString().PadRight(12), odometers[odometers.Count - 1]);
             Console.WriteLine(carInfo);
+        }
+
+        static void PrintAllTeamCars(List<String> brands, List<String> models, List<int> years, List<int> odometers)
+        {
+            string brandLabel = "Bilmærke".PadRight(12);
+            string modelLabel = "Model".PadRight(12);
+            string yearLabel = "Årgang".PadRight(12);
+            string kmLabel = "Kilometertal";
+            Console.WriteLine($"{brandLabel}|{modelLabel}|{yearLabel}|{kmLabel}");
+            Console.WriteLine("---------------------------------------");
+            for (int i = 0; i < brands.Count; i++)
+            {
+                string carInfo = String.Format("{0}|{1}|{2:F0}km", brands[i].PadRight(12),
+                models[i].PadRight(12), years[i].ToString().PadRight(12), odometers[i]);
+                Console.WriteLine(carInfo);
+            }
         }
     }
 }
