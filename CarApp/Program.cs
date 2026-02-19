@@ -1,6 +1,4 @@
-﻿using System.Reflection;
-
-namespace CarApp
+﻿namespace CarApp
 {
     internal class Program
     {
