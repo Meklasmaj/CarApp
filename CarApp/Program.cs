@@ -14,9 +14,7 @@ namespace CarApp
             double benzinPrice = 13.39;
             double dieselPrice = 12.29;
 
-            bool isRunning = true;
-
-            while (isRunning)
+            while (true)
             {
                 Console.WriteLine("______________________________________");
                 Console.WriteLine("|                                    |");
@@ -60,7 +58,7 @@ namespace CarApp
                         PrintAllTeamCars(brandList, modelList, yearList, odometerList);
                         break;
                     case 6:
-                        isRunning = false;
+                        Environment.Exit(0);
                         break;
                 }
 
@@ -171,3 +169,25 @@ namespace CarApp
         }
     }
 }
+
+
+
+
+//string car1 = "";
+//string car2 = "";
+//string car3 = "";
+
+//for (int i = 0; i < 3; i++)
+//{
+//    if (i == 0)
+//    {
+//        Console.WriteLine(car1);
+//    }
+//    else if (i == 1) {
+//        Console.WriteLine(car2);
+//    }
+//    else if (i == 2)
+//    {
+//        Console.WriteLine(car3);
+//    }
+//}
