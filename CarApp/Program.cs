@@ -14,16 +14,59 @@ namespace CarApp
             double benzinPrice = 13.39;
             double dieselPrice = 12.29;
 
-            ReadCarDetails(brandList, modelList, yearList, odometerList);
+            bool isRunning = true;
 
-            // Ending
-            Console.Clear();
+            while (isRunning)
+            {
+                Console.WriteLine("______________________________________");
+                Console.WriteLine("|                                    |");
+                Console.WriteLine("|                 MENU               |");
+                Console.WriteLine("|____________________________________|\n");
+                Console.WriteLine("1: Indtast biloplysninger (Anbefalet)");
+                Console.WriteLine("2: Beregn pris på en køretur");
+                Console.WriteLine("3: Er kilometertallet palindrom?");
+                Console.WriteLine("4: Udskriv biloplysninger for sidste bil");
+                Console.WriteLine("5: Udskriv alle biloplysninger\n");
+                Console.WriteLine("6: Luk Programmet");
 
-            PrintCarDetails(brandList, modelList, yearList, odometerList);
+                int answer = Convert.ToInt32(Console.ReadLine());
 
-            Console.ReadLine();
+                switch (answer)
+                {
+                    case 1:
+                        Console.Clear();
+                        ReadCarDetails(brandList, modelList, yearList, odometerList);
+                        break;
+                    case 2:
+                        Console.WriteLine("Hvor langt skal du køre?");
+                        double distance = Convert.ToDouble(Console.ReadLine());
+                        Console.Clear();
+                        Drive(distance, fuelTypeList, odometerList, benzinPrice, dieselPrice);
+                        break;
+                    case 3:
+                        Console.Clear();
+                        if (IsPalindrome(odometerList[odometerList.Count - 1]))
+                        {
+                            Console.WriteLine("Kilometertallet er et palindrom");
+                        }
+                        else Console.WriteLine("Kilometertaller er ikke et palindrom");
+                        break;
+                    case 4:
+                        Console.Clear();
+                        PrintCarDetails(brandList, modelList, yearList, odometerList);
+                        break;
+                    case 5:
+                        Console.Clear();
+                        PrintAllTeamCars(brandList, modelList, yearList, odometerList);
+                        break;
+                    case 6:
+                        isRunning = false;
+                        break;
+                }
 
-            
+                Console.ReadLine();
+                Console.Clear();
+            }
         }
         static void ReadCarDetails(List<String> brands, List<String> models, List<int> years, List<int> odometers)
         {
@@ -38,7 +81,7 @@ namespace CarApp
             odometers.Add(Convert.ToInt32(Console.ReadLine()));
         }
 
-        void Drive(double distance, List<String> fuelTypes, List<int> odometers, double benzinPrice, double dieselPrice)
+        static void Drive(double distance, List<String> fuelTypes, List<int> odometers, double benzinPrice, double dieselPrice)
         {
             Console.WriteLine("Er bilen tændt? y/n:");
             char answer = Console.ReadLine().ToLower()[0];
@@ -69,8 +112,6 @@ namespace CarApp
             {
                 Console.WriteLine("Motoren er ikke tændt, prøv igen senere eller tilkald vejhjælp");
             }
-
-            Console.ReadLine();
         }
 
         static double CalculateTripPrice(double distance, double literPrice, double kmPrL)
@@ -84,7 +125,7 @@ namespace CarApp
         {
             string reverse = "";
 
-            for(int i = km.ToString().Length; i != 0; i--)
+            for (int i = km.ToString().Length; i != 0; i--)
             {
                 reverse += km.ToString()[i];
             }
