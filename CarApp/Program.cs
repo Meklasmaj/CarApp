@@ -10,12 +10,13 @@ namespace CarApp
             List<String> modelList = ["Qashqai", "DMax", "SMax", "A4"];
             List<int> yearList = [2014, 2015, 2014, 2001];
             List<int> odometerList = [150000, 166000, 260000, 440000];
-            
+
+            ReadCarDetails();
 
             // Ending
             Console.Clear();
 
-            
+            PrintCarDetails();
 
             Console.ReadLine();
 
@@ -23,13 +24,13 @@ namespace CarApp
             {
                 Console.Clear();
                 Console.WriteLine("Indtast bilmærke:");
-                brandList.Append(Console.ReadLine());
+                brandList.Add(Console.ReadLine());
                 Console.WriteLine("Indtast bilmodel:");
-                modelList.Append(Console.ReadLine());
+                modelList.Add(Console.ReadLine());
                 Console.WriteLine("Indtast bilens årgang:");
-                yearList.Append(Convert.ToInt32(Console.ReadLine()));
+                yearList.Add(Convert.ToInt32(Console.ReadLine()));
                 Console.WriteLine("Indtast bilens kilometer kørt:");
-                odometerList.Append(Convert.ToInt32(Console.ReadLine()));
+                odometerList.Add(Convert.ToInt32(Console.ReadLine()));
             }
 
             static double CalculateTripPrice()
@@ -50,10 +51,12 @@ namespace CarApp
             {
                 string brandLabel = "Bilmærke".PadRight(12);
                 string modelLabel = "Model".PadRight(12);
+                string yearLabel = "Årgang".PadRight(12);
                 string kmLabel = "Kilometertal";
-                Console.WriteLine($"{brandLabel}|{modelLabel}|{kmLabel}");
+                Console.WriteLine($"{brandLabel}|{modelLabel}|{yearLabel}|{kmLabel}");
                 Console.WriteLine("---------------------------------------");
-                string carInfo = String.Format("{0}|{1}|{2:F0}km", brandList[-1].PadRight(12), modelList[-1].PadRight(12), odometerList[-1]);
+                string carInfo = String.Format("{0}|{1}|{2:F0}km", brandList[brandList.Count -1].PadRight(12),
+                    modelList[modelList.Count -1].PadRight(12), yearList[yearList.Count -1].ToString().PadRight(12), odometerList[odometerList.Count -1]);
                 Console.WriteLine(carInfo);
             }
         }
