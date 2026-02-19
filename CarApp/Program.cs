@@ -80,23 +80,24 @@
 
         static void Drive(double distance, List<String> fuelTypes, List<int> odometers, double benzinPrice, double dieselPrice)
         {
-            Console.WriteLine("Er bilen tændt? y/n:");
-            char answer = Console.ReadLine().ToLower()[0];
+            Console.WriteLine("Er bilen tændt?");
+            string answer = Console.ReadLine().ToLower();
 
-            if (answer == 'y')
+            if (answer == "ja" || answer == "y")
             {
                 Console.WriteLine("Kører du på Benzin eller Diesel?:");
                 string fuelType = Console.ReadLine().ToLower();
                 fuelTypes.Add(fuelType);
                 Console.WriteLine("Hvor langt kører den på literen?:");
                 double kmPrL = Convert.ToDouble(Console.ReadLine());
-                if (fuelType == "benzin")
+                Console.Clear();
+                if (fuelType == "benzin" || fuelType == "b")
                 {
-                    Console.WriteLine($"Du kører {fuelType.ToUpper()} og prisen pr/l er {benzinPrice}, det koster dig {CalculateTripPrice(distance, benzinPrice, kmPrL)}kr for at køre turen.");
+                    Console.WriteLine($"Du kører {fuelType.ToUpper()} og prisen pr/l er {benzinPrice}, det koster dig {CalculateTripPrice(distance, benzinPrice, kmPrL):F0}kr for at køre turen.");
                 }
-                else if (fuelType == "diesel")
+                else if (fuelType == "diesel" || fuelType == "d")
                 {
-                    Console.WriteLine($"Du kører {fuelType.ToUpper()} og prisen pr/l er {dieselPrice}, det koster dig {CalculateTripPrice(distance, dieselPrice, kmPrL)}kr for at køre turen.");
+                    Console.WriteLine($"Du kører {fuelType.ToUpper()} og prisen pr/l er {dieselPrice}, det koster dig {CalculateTripPrice(distance, dieselPrice, kmPrL):F0}kr for at køre turen.");
                 }
                 else
                 {
