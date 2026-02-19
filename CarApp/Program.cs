@@ -172,9 +172,9 @@
 
 
 
-//string car1 = "";
-//string car2 = "";
-//string car3 = "";
+//string car1 = "Ford";
+//string car2 = "Nissan";
+//string car3 = "BMW";
 
 //for (int i = 0; i < 3; i++)
 //{
