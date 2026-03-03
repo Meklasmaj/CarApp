@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Datamatiker\\Programmering\\Projects\\CarApp\\CarApp\\CarApp.csproj": {}
+    "D:\\Datamatiker\\Programmering\\Projects\\CarApp\\CarApp\\CarApp.csproj": {}
   },
   "projects": {
-    "E:\\Datamatiker\\Programmering\\Projects\\CarApp\\CarApp\\CarApp.csproj": {
+    "D:\\Datamatiker\\Programmering\\Projects\\CarApp\\CarApp\\CarApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Datamatiker\\Programmering\\Projects\\CarApp\\CarApp\\CarApp.csproj",
+        "projectUniqueName": "D:\\Datamatiker\\Programmering\\Projects\\CarApp\\CarApp\\CarApp.csproj",
         "projectName": "CarApp",
-        "projectPath": "E:\\Datamatiker\\Programmering\\Projects\\CarApp\\CarApp\\CarApp.csproj",
-        "packagesPath": "C:\\Users\\Meklas\\.nuget\\packages\\",
-        "outputPath": "E:\\Datamatiker\\Programmering\\Projects\\CarApp\\CarApp\\obj\\",
+        "projectPath": "D:\\Datamatiker\\Programmering\\Projects\\CarApp\\CarApp\\CarApp.csproj",
+        "packagesPath": "C:\\Users\\mekla\\.nuget\\packages\\",
+        "outputPath": "D:\\Datamatiker\\Programmering\\Projects\\CarApp\\CarApp\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Meklas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mekla\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
