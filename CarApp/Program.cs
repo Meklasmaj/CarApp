@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            List<Car> _cars = new List<Car> { new Car("Mazda", "3", 2017, 'm', 180000, 'b', true, 19.7) };
+            List<Car> _cars = new List<Car> { new Car("Mazda", "3", 2017, 'm', 180000, FuelType.Benzin, 19.7) };
 
             while (true)
             {
@@ -13,10 +13,11 @@
                 Console.WriteLine("|                 MENU               |");
                 Console.WriteLine("|____________________________________|\n");
                 Console.WriteLine("1: Indtast biloplysninger (Anbefalet)");
-                Console.WriteLine("2: Beregn pris på en køretur");
-                Console.WriteLine("3: Er kilometertallet palindrom?");
-                Console.WriteLine("4: Udskriv alle biloplysninger\n");
-                Console.WriteLine("5: Luk Programmet\n");
+                Console.WriteLine("2: Indtast ny køretur");
+                Console.WriteLine("3: Beregn pris på køretur");
+                Console.WriteLine("4: Er kilometertallet palindrom?");
+                Console.WriteLine("5: Udskriv alle biloplysninger\n");
+                Console.WriteLine("6: Luk Programmet\n");
 
                 int answer = Convert.ToInt32(Console.ReadLine());
 
@@ -27,22 +28,24 @@
                         ReadCarDetails();
                         break;
                     case 2:
-                        Console.WriteLine("Hvor langt skal du køre?");
-                        double distance = Convert.ToDouble(Console.ReadLine());
-                        _cars[0].Drive(distance);
+                        ReadTripDetails();
                         Console.Clear();
                         break;
                     case 3:
+                        _cars[0].Drive(_cars[0].GetTrips()[0]);
+                        Console.Clear();
+                        break;
+                    case 4:
                         Console.Clear();
                         if (_cars[0].IsPalindrome()){
                             Console.WriteLine("Den er palindrom");
                         } else Console.WriteLine("Den er ikke palindrom");
                             break;
-                    case 4:
+                    case 5:
                         Console.Clear();
                         PrintAllTeamCars();
                         break;
-                    case 5:
+                    case 6:
                         Environment.Exit(0);
                         break;
                 }
@@ -59,9 +62,10 @@
                 int _year;
                 char _gear;
                 int _odometer;
-                char _fuelType;
-                bool _isEngineOn;
+                char fuelType;
                 double _kmPerLiter;
+                FuelType _fuelType;
+
                 Console.Clear();
                 Console.WriteLine("Indtast bilmærke:");
                 _brand = Console.ReadLine();
@@ -73,19 +77,31 @@
                 _gear = Console.ReadLine()[0];
                 Console.WriteLine("Indtast bilens kilometer kørt:");
                 _odometer = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine("Indtast brændstoftype b/d/e:");
-                _fuelType = Console.ReadLine()[0];
-                Console.WriteLine("Er bilen tændt?: y/n");
-                char answer = Console.ReadLine()[0];
-                if (answer == 'y')
+                Console.WriteLine("Indtast brændstoftype b/d/e/h:");
+                fuelType = Console.ReadLine()[0];
+
+                switch (fuelType)
                 {
-                    _isEngineOn = true;
+                    case 'b':
+                        _fuelType = FuelType.Benzin;
+                        break;
+                    case 'd':
+                        _fuelType = FuelType.Diesel;
+                        break;
+                    case 'e':
+                        _fuelType = FuelType.Electric;
+                        break;
+                    case 'h':
+                        _fuelType = FuelType.Hybrid;
+                        break;
+                    default:
+                        _fuelType = FuelType.Benzin;
+                        break;
                 }
-                else _isEngineOn = false;
                 Console.WriteLine("Indtast Kilometer per liter:");
                 _kmPerLiter = Convert.ToDouble(Console.ReadLine());
 
-                _cars.Add(new Car(_brand, _model, _year, _gear, _odometer, _fuelType, _isEngineOn, _kmPerLiter));
+                _cars.Add(new Car(_brand, _model, _year, _gear, _odometer, _fuelType, _kmPerLiter));
             }
 
             void PrintAllTeamCars()
@@ -98,8 +114,28 @@
                 Console.WriteLine("-----------------------------------------------------");
                 for (int i = 0; i < _cars.Count; i++)
                 {
-                    _cars[i].GetCarDetails();
+                    Console.WriteLine(_cars[i].GetCarDetails());
                 }
+            }
+
+            void ReadTripDetails()
+            {
+                Console.Clear();
+                Console.WriteLine("Hvilken time startede turen?:");
+                DateTime _startTime = new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, Convert.ToInt32(Console.ReadLine()), 0, 0);
+
+                Console.WriteLine("Hvilken time sluttede turen?:");
+                DateTime _endTime = new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, Convert.ToInt32(Console.ReadLine()), 0, 0);
+
+                Console.WriteLine("Indtast tur nummer:");
+                int _id = Convert.ToInt32(Console.ReadLine());
+
+                Console.WriteLine("Indtast længden på turen i km:");
+                double _distance = Convert.ToDouble(Console.ReadLine());
+
+                Console.WriteLine("Hvilken nummer bil kørte du i:");
+                int _carId = Convert.ToInt32(Console.ReadLine());
+                _cars[_carId - 1].AddTrip(_startTime, _endTime, _id, _distance);
             }
         }
     }
