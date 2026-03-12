@@ -69,14 +69,19 @@
                 Console.Clear();
                 Console.WriteLine("Indtast bilmærke:");
                 _brand = Console.ReadLine();
+
                 Console.WriteLine("Indtast bilmodel:");
                 _model = Console.ReadLine();
+
                 Console.WriteLine("Indtast bilens årgang:");
                 _year = Convert.ToInt32(Console.ReadLine());
+
                 Console.WriteLine("Indtast geartype m/a:");
                 _gear = Console.ReadLine()[0];
+
                 Console.WriteLine("Indtast bilens kilometer kørt:");
                 _odometer = Convert.ToInt32(Console.ReadLine());
+
                 Console.WriteLine("Indtast brændstoftype b/d/e/h:");
                 fuelType = Console.ReadLine()[0];
 

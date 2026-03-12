@@ -2,7 +2,7 @@ using System.Security.Cryptography;
 
 namespace CarApp
 {
-    internal class Car
+    public class Car
     {
         private string _brand;
         private string _model;
@@ -24,16 +24,41 @@ namespace CarApp
             FuelType = fuelType;
             KmPerLiter = kmPerLiter;
         }
+        public List<Trip> GetTripsByDate(DateTime dato)
+        {
+            List<Trip> NewTrips = new List<Trip>();
 
+            foreach (Trip trip in _trips)
+            {
+                if (trip.Date.Date == dato.Date)
+                { 
+                    NewTrips.Add(trip);
+                }
+            }
+            return NewTrips;
+        }
+
+        public List<Trip> GetTripsInTimeInterval(DateTime start, DateTime end)
+        {
+            List<Trip> NewTrips = new List<Trip>();
+
+            foreach (Trip trip in _trips)
+            {
+                if (trip.Start >= start && trip.Start <= end)
+                { 
+                    NewTrips.Add(trip);
+                }
+            }
+            return NewTrips;
+        }
 
         public void Drive(Trip trip)
         {
             if (true)
             {
-                Console.Clear();
+                _trips.Add(trip);
                 Console.WriteLine(trip.GetTripDetails());
                 _odometer += Convert.ToInt32(Math.Round(trip.Distance));
-                Console.ReadLine();
             }
             else
             {

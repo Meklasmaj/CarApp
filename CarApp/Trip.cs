@@ -1,6 +1,6 @@
 ﻿namespace CarApp
 {
-    internal class Trip
+    public class Trip
     {
         public DateTime Date { get; private set; }
         public DateTime Start {  get; private set; }
@@ -11,7 +11,7 @@
 
         public Trip(DateTime date, DateTime startTime, DateTime endTime, int id, double distance, Car car)
         {
-            Date = date;
+            Date = date.Date;
             Start = startTime;
             End = endTime;
             Id = id;
