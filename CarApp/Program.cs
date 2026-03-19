@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            List<Car> _cars = new List<Car> { new Car("Mazda", "3", 2017, 'm', 180000, FuelType.Benzin, 19.7) };
+            List<Car> _cars = new List<Car> { new FuelCar("Mazda", "3", 2017, "CN45986", 180000, 19.7, FuelType.Benzin) };
 
             while (true)
             {
@@ -106,7 +106,7 @@
                 Console.WriteLine("Indtast Kilometer per liter:");
                 _kmPerLiter = Convert.ToDouble(Console.ReadLine());
 
-                _cars.Add(new Car(_brand, _model, _year, _gear, _odometer, _fuelType, _kmPerLiter));
+                //_cars.Add(new Car(_brand, _model, _year, _gear, _odometer, _fuelType, _kmPerLiter));
             }
 
             void PrintAllTeamCars()

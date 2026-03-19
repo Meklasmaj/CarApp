@@ -21,12 +21,12 @@
 
         public double CalculateFuelUsed()
         {
-            return Distance / Car.KmPerLiter;
+            return Distance / Car.Usage;
         }
 
         public double CalculateTripPrice()
         {
-            switch (Car.FuelType)
+            switch (Car.GetFuelType())
             {
                 case FuelType.Benzin:
                     return CalculateFuelUsed() * 13.47;

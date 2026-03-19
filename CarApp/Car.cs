@@ -2,27 +2,25 @@ using System.Security.Cryptography;
 
 namespace CarApp
 {
-    public class Car
+    public abstract class Car
     {
         private string _brand;
         private string _model;
         private int _year;
-        private char _gear;
         private int _odometer;
-        public double KmPerLiter { get; private set; }
-        public FuelType FuelType { get; private set; }
+        private string _licensePlate;
+        public double Usage { get; private set; }
         private List<Trip> _trips = new List<Trip>();
 
 
-        public Car(string brand, string model, int year, char gear, int odometer, FuelType fuelType, double kmPerLiter)
+        public Car(string brand, string model, int year, string licensePlate, int odometer, double usage)
         {
             _brand = brand;
             _model = model;
             _year = year;
-            _gear = gear;
+            _licensePlate = licensePlate;
             _odometer = odometer;
-            FuelType = fuelType;
-            KmPerLiter = kmPerLiter;
+            Usage = usage;
         }
         public List<Trip> GetTripsByDate(DateTime dato)
         {
@@ -62,7 +60,7 @@ namespace CarApp
             }
             else
             {
-                Console.WriteLine("Motoren er ikke tændt, prøv igen senere eller tilkald vejhjælp");
+                Console.WriteLine("Motoren er ikke tï¿½ndt, prï¿½v igen senere eller tilkald vejhjï¿½lp");
             }
         }
 
@@ -101,5 +99,7 @@ namespace CarApp
         {
             return _trips;
         }
+
+        public abstract FuelType GetFuelType();
     }
 }
