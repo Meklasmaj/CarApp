@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            List<Car> _cars = new List<Car> { new FuelCar("Mazda", "3", 2017, "CN45986", 180000, 19.7, FuelType.Benzin) };
+            List<Car> _cars = new List<Car> { new FuelCar("Mazda", "3", 2017, "CN45986", 180000, 19.7, 50, true, FuelType.Benzin) };
 
             while (true)
             {
@@ -24,35 +24,32 @@
                 switch (answer)
                 {
                     case 1:
-                        Console.Clear();
                         ReadCarDetails();
                         break;
                     case 2:
                         ReadTripDetails();
-                        Console.Clear();
                         break;
                     case 3:
                         _cars[0].Drive(_cars[0].GetTrips()[0]);
-                        Console.Clear();
                         break;
                     case 4:
-                        Console.Clear();
                         if (_cars[0].IsPalindrome()){
                             Console.WriteLine("Den er palindrom");
                         } else Console.WriteLine("Den er ikke palindrom");
                             break;
                     case 5:
-                        Console.Clear();
                         PrintAllTeamCars();
                         break;
                     case 6:
+                        _cars[0].ToggleEngine();
+                        break;
+                    case 7:
                         Environment.Exit(0);
                         break;
                 }
 
                 Console.WriteLine("\nTryk enter igen for at gå videre!\n");
                 Console.ReadLine();
-                Console.Clear();
             }
 
             void ReadCarDetails()
@@ -63,8 +60,10 @@
                 char _gear;
                 int _odometer;
                 char fuelType;
-                double _kmPerLiter;
+                double usage;
                 FuelType _fuelType;
+                double capacity;
+                string ignition;
 
                 Console.Clear();
                 Console.WriteLine("Indtast bilmærke:");
@@ -103,8 +102,20 @@
                         _fuelType = FuelType.Benzin;
                         break;
                 }
-                Console.WriteLine("Indtast Kilometer per liter:");
-                _kmPerLiter = Convert.ToDouble(Console.ReadLine());
+                Console.WriteLine("Indtast Kilometer per liter/kwH:");
+                usage = Convert.ToDouble(Console.ReadLine());
+
+                Console.WriteLine("Indtast tank/batteri størrelse:");
+                capacity = Convert.ToDouble(Console.ReadLine());
+
+                Console.WriteLine("Er bilen tændt (ja/nej)? ");
+                ignition = Console.ReadLine().ToLower();
+                bool IsEngineOn = false;
+
+                if (ignition == "ja")
+                {
+                    IsEngineOn = true;
+                }
 
                 //_cars.Add(new Car(_brand, _model, _year, _gear, _odometer, _fuelType, _kmPerLiter));
             }

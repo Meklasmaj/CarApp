@@ -9,11 +9,13 @@ namespace CarApp
         private int _year;
         private int _odometer;
         private string _licensePlate;
-        public double Usage { get; private set; }
+        public double Usage { get; set; }
+        public bool IsEngineOn {  get; private set; }
+        public double Capacity { get; private set; }
         private List<Trip> _trips = new List<Trip>();
 
 
-        public Car(string brand, string model, int year, string licensePlate, int odometer, double usage)
+        public Car(string brand, string model, int year, string licensePlate, int odometer, double usage, double capacity, bool ignition)
         {
             _brand = brand;
             _model = model;
@@ -21,6 +23,8 @@ namespace CarApp
             _licensePlate = licensePlate;
             _odometer = odometer;
             Usage = usage;
+            Capacity = capacity;
+            IsEngineOn = ignition;
         }
         public List<Trip> GetTripsByDate(DateTime dato)
         {
@@ -52,17 +56,40 @@ namespace CarApp
 
         public void Drive(Trip trip)
         {
-            if (true)
+            if (IsEngineOn)
             {
                 _trips.Add(trip);
-                Console.WriteLine(trip.GetTripDetails());
+                UpdateEnergyLevel(trip.Distance);
                 _odometer += Convert.ToInt32(Math.Round(trip.Distance));
+                Console.WriteLine(trip.GetTripDetails());
             }
             else
             {
-                Console.WriteLine("Motoren er ikke t�ndt, pr�v igen senere eller tilkald vejhj�lp");
+                Console.WriteLine("Motoren er ikke tændt, prøv igen senere eller tilkald vejhjælp");
             }
         }
+
+        // GetMetode til at tjekke om bilen er tændt.
+        public bool GetEngineOn()
+        {
+            return IsEngineOn;
+        }
+
+        public bool ToggleEngine()
+        {
+            if (IsEngineOn == true)
+            {
+                return false;
+            }
+            return true;
+
+        }
+
+        // Opdaterer capacity (tank/batteri)
+        public abstract void UpdateEnergyLevel(double km);
+
+        // Return the current energy level (fuel or battery) for this car.
+        public abstract double GetEnergyLevel();
 
         public bool IsPalindrome()
         {
