@@ -28,14 +28,15 @@ public class FuelCar : Car
         return FuelLevel;
     }
 
-    public void Fuel(double liters)
+    public void Refuel(double liters)
     {
-        if((liters+FuelLevel) < Capacity){
+        if( FuelLevel + liters <= Capacity){
             FuelLevel += liters;
         }
         else
         {
             Console.WriteLine("Du har fyldt for meget brændstof på og nu har du ødelagt dine fine sko.");
+            FuelLevel = Capacity;
         }
     }
 }
