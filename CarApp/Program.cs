@@ -4,8 +4,36 @@
     {
         static void Main(string[] args)
         {
-            List<Car> _cars = new List<Car> { new FuelCar("Mazda", "3", 2017, "CN45986", 180000, 19.7, 50, true, FuelType.Benzin) };
+            List<Car> _cars = new List<Car> { new FuelCar("Mazda", "3", 2017, "CN45986", 180000, 19.7, 50, true, FuelType.Benzin, 90000), new ElectricCar("Tesla", "3", 2017, "BP49999", 90000, 6, 65, true, FuelType.Electric, 190000) };
+            List<ISellable> _ForSale = new List<ISellable>();
+            List<IInsurable> _Insured = new List<IInsurable>();
+            FuelCar fc = new FuelCar("Mazda", "3", 2017, "CN45986", 180000, 19.7, 50, true, FuelType.Benzin, 90000);
+            ElectricCar ec = new ElectricCar("Tesla", "3", 2017, "BP49999", 90000, 6, 65, true, FuelType.Electric, 190000);
+            House h = new House("Strandvejen 42, 2900 Hellerup", 1965, 4200000, "1234-AB");
 
+            _ForSale.Add(h);
+            _Insured.Add(h);
+            _ForSale.Add(fc);
+            _Insured.Add(fc);
+            _ForSale.Add(ec);
+            _Insured.Add(ec);
+            double total = 0;
+            foreach (IInsurable i in _Insured)
+            {
+                
+                    Console.WriteLine($"Forsikringsrate for {i.RegistrationNumber}: {i.GetInsuranceRate():F2}%");
+                
+            }
+            foreach (ISellable s in _ForSale)
+            {
+                
+                    
+                    Console.WriteLine(s.GetInformation());
+                    total += s.Price;
+                    
+                
+            }
+            Console.WriteLine($"Samlet Beholdningsværdi: {total:N0} Dkk");
             while (true)
             {
                 Console.WriteLine("______________________________________");

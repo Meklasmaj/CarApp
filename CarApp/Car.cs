@@ -4,15 +4,15 @@ namespace CarApp
 {
     public abstract class Car
     {
-        private string _brand;
-        private string _model;
-        private int _year;
-        private int _odometer;
-        private string _licensePlate;
+        protected string _brand;
+        protected string _model;
+        protected int _year;
+        protected int _odometer;
+        protected string _licensePlate;
         public double Usage { get; set; }
         public bool IsEngineOn {  get; private set; }
         public double Capacity { get; private set; }
-        private List<Trip> _trips = new List<Trip>();
+        protected List<Trip> _trips = new List<Trip>();
 
 
         public Car(string brand, string model, int year, string licensePlate, int odometer, double usage, double capacity, bool ignition)

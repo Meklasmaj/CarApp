@@ -1,26 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\",
+  "WorkspaceRootPath": "C:\\Users\\jensb\\source\\repos\\CarApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{666E1D56-F21C-2DEF-624A-6C8713B49DEE}|CarApp\\CarApp.csproj|c:\\users\\admin\\onedrive\\dokumenter\\datamatiker ucl\\programmering\\github\\carapp team 2\\carapp\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{666E1D56-F21C-2DEF-624A-6C8713B49DEE}|CarApp\\CarApp.csproj|solutionrelative:carapp\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{666E1D56-F21C-2DEF-624A-6C8713B49DEE}|CarApp\\CarApp.csproj|c:\\users\\admin\\onedrive\\dokumenter\\datamatiker ucl\\programmering\\github\\carapp team 2\\carapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{666E1D56-F21C-2DEF-624A-6C8713B49DEE}|CarApp\\CarApp.csproj|c:\\users\\jensb\\source\\repos\\carapp\\carapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{666E1D56-F21C-2DEF-624A-6C8713B49DEE}|CarApp\\CarApp.csproj|solutionrelative:carapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{666E1D56-F21C-2DEF-624A-6C8713B49DEE}|CarApp\\CarApp.csproj|c:\\users\\admin\\onedrive\\dokumenter\\datamatiker ucl\\programmering\\github\\carapp team 2\\carapp\\trip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{666E1D56-F21C-2DEF-624A-6C8713B49DEE}|CarApp\\CarApp.csproj|solutionrelative:carapp\\trip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{666E1D56-F21C-2DEF-624A-6C8713B49DEE}|CarApp\\CarApp.csproj|c:\\users\\jensb\\source\\repos\\carapp\\carapp\\house.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{666E1D56-F21C-2DEF-624A-6C8713B49DEE}|CarApp\\CarApp.csproj|solutionrelative:carapp\\house.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{666E1D56-F21C-2DEF-624A-6C8713B49DEE}|CarApp\\CarApp.csproj|c:\\users\\admin\\onedrive\\dokumenter\\datamatiker ucl\\programmering\\github\\carapp team 2\\carapp\\fuelcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{666E1D56-F21C-2DEF-624A-6C8713B49DEE}|CarApp\\CarApp.csproj|c:\\users\\jensb\\source\\repos\\carapp\\carapp\\electriccar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{666E1D56-F21C-2DEF-624A-6C8713B49DEE}|CarApp\\CarApp.csproj|solutionrelative:carapp\\electriccar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{666E1D56-F21C-2DEF-624A-6C8713B49DEE}|CarApp\\CarApp.csproj|c:\\users\\jensb\\source\\repos\\carapp\\carapp\\fuelcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{666E1D56-F21C-2DEF-624A-6C8713B49DEE}|CarApp\\CarApp.csproj|solutionrelative:carapp\\fuelcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01C494C5-7950-48B9-918A-8BF1817417D0}|CarUnitTest\\CarUnitTest.csproj|c:\\users\\admin\\onedrive\\dokumenter\\datamatiker ucl\\programmering\\github\\carapp team 2\\carunittest\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{01C494C5-7950-48B9-918A-8BF1817417D0}|CarUnitTest\\CarUnitTest.csproj|c:\\users\\jensb\\source\\repos\\carapp\\carunittest\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01C494C5-7950-48B9-918A-8BF1817417D0}|CarUnitTest\\CarUnitTest.csproj|solutionrelative:carunittest\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{666E1D56-F21C-2DEF-624A-6C8713B49DEE}|CarApp\\CarApp.csproj|c:\\users\\jensb\\source\\repos\\carapp\\carapp\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{666E1D56-F21C-2DEF-624A-6C8713B49DEE}|CarApp\\CarApp.csproj|solutionrelative:carapp\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{666E1D56-F21C-2DEF-624A-6C8713B49DEE}|CarApp\\CarApp.csproj|c:\\users\\jensb\\source\\repos\\carapp\\carapp\\iinsurable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{666E1D56-F21C-2DEF-624A-6C8713B49DEE}|CarApp\\CarApp.csproj|solutionrelative:carapp\\iinsurable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{666E1D56-F21C-2DEF-624A-6C8713B49DEE}|CarApp\\CarApp.csproj|c:\\users\\jensb\\source\\repos\\carapp\\carapp\\isellable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{666E1D56-F21C-2DEF-624A-6C8713B49DEE}|CarApp\\CarApp.csproj|solutionrelative:carapp\\isellable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{666E1D56-F21C-2DEF-624A-6C8713B49DEE}|CarApp\\CarApp.csproj|c:\\users\\jensb\\source\\repos\\carapp\\carapp\\trip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{666E1D56-F21C-2DEF-624A-6C8713B49DEE}|CarApp\\CarApp.csproj|solutionrelative:carapp\\trip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 222,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,43 +58,99 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "House.cs",
+              "DocumentMoniker": "C:\\Users\\jensb\\source\\repos\\CarApp\\CarApp\\House.cs",
+              "RelativeDocumentMoniker": "CarApp\\House.cs",
+              "ToolTip": "C:\\Users\\jensb\\source\\repos\\CarApp\\CarApp\\House.cs",
+              "RelativeToolTip": "CarApp\\House.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T13:04:29.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ElectricCar.cs",
+              "DocumentMoniker": "C:\\Users\\jensb\\source\\repos\\CarApp\\CarApp\\ElectricCar.cs",
+              "RelativeDocumentMoniker": "CarApp\\ElectricCar.cs",
+              "ToolTip": "C:\\Users\\jensb\\source\\repos\\CarApp\\CarApp\\ElectricCar.cs",
+              "RelativeToolTip": "CarApp\\ElectricCar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T12:00:39.419Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "FuelCar.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarApp\\FuelCar.cs",
+              "DocumentMoniker": "C:\\Users\\jensb\\source\\repos\\CarApp\\CarApp\\FuelCar.cs",
               "RelativeDocumentMoniker": "CarApp\\FuelCar.cs",
-              "ToolTip": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarApp\\FuelCar.cs",
+              "ToolTip": "C:\\Users\\jensb\\source\\repos\\CarApp\\CarApp\\FuelCar.cs",
               "RelativeToolTip": "CarApp\\FuelCar.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAADwvxMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAIwCIAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-19T11:26:28.134Z",
+              "WhenOpened": "2026-03-26T11:25:45.538Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
+              "Title": "IInsurable.cs",
+              "DocumentMoniker": "C:\\Users\\jensb\\source\\repos\\CarApp\\CarApp\\IInsurable.cs",
+              "RelativeDocumentMoniker": "CarApp\\IInsurable.cs",
+              "ToolTip": "C:\\Users\\jensb\\source\\repos\\CarApp\\CarApp\\IInsurable.cs",
+              "RelativeToolTip": "CarApp\\IInsurable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T09:58:14.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ISellable.cs",
+              "DocumentMoniker": "C:\\Users\\jensb\\source\\repos\\CarApp\\CarApp\\ISellable.cs",
+              "RelativeDocumentMoniker": "CarApp\\ISellable.cs",
+              "ToolTip": "C:\\Users\\jensb\\source\\repos\\CarApp\\CarApp\\ISellable.cs",
+              "RelativeToolTip": "CarApp\\ISellable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T09:53:21.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Car.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarApp\\Car.cs",
+              "DocumentMoniker": "C:\\Users\\jensb\\source\\repos\\CarApp\\CarApp\\Car.cs",
               "RelativeDocumentMoniker": "CarApp\\Car.cs",
-              "ToolTip": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarApp\\Car.cs",
+              "ToolTip": "C:\\Users\\jensb\\source\\repos\\CarApp\\CarApp\\Car.cs",
               "RelativeToolTip": "CarApp\\Car.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAnwEAAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAYwBYAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-12T11:37:57.889Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "Trip.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarApp\\Trip.cs",
+              "DocumentMoniker": "C:\\Users\\jensb\\source\\repos\\CarApp\\CarApp\\Trip.cs",
               "RelativeDocumentMoniker": "CarApp\\Trip.cs",
-              "ToolTip": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarApp\\Trip.cs",
+              "ToolTip": "C:\\Users\\jensb\\source\\repos\\CarApp\\CarApp\\Trip.cs",
               "RelativeToolTip": "CarApp\\Trip.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADgvzQAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-12T11:37:22.634Z",
               "EditorCaption": ""
@@ -87,24 +159,24 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Test1.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarUnitTest\\Test1.cs",
+              "DocumentMoniker": "C:\\Users\\jensb\\source\\repos\\CarApp\\CarUnitTest\\Test1.cs",
               "RelativeDocumentMoniker": "CarUnitTest\\Test1.cs",
-              "ToolTip": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarUnitTest\\Test1.cs",
+              "ToolTip": "C:\\Users\\jensb\\source\\repos\\CarApp\\CarUnitTest\\Test1.cs",
               "RelativeToolTip": "CarUnitTest\\Test1.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwB0AAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-12T11:31:05.503Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarApp\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\jensb\\source\\repos\\CarApp\\CarApp\\Program.cs",
               "RelativeDocumentMoniker": "CarApp\\Program.cs",
-              "ToolTip": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarApp\\Program.cs",
-              "RelativeToolTip": "CarApp\\Program.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwB0AAAAqAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\jensb\\source\\repos\\CarApp\\CarApp\\Program.cs*",
+              "RelativeToolTip": "CarApp\\Program.cs*",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwCIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-05T09:04:37.615Z",
               "EditorCaption": ""
