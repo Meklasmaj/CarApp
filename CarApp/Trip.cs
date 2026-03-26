@@ -19,7 +19,7 @@
             Car = car;
         }
 
-        public double CalculateFuelUsed()
+        public double CalculateEnergyUsage()
         {
             return Distance / Car.Usage;
         }
@@ -29,15 +29,15 @@
             switch (Car.GetFuelType())
             {
                 case FuelType.Benzin:
-                    return CalculateFuelUsed() * 13.47;
+                    return CalculateEnergyUsage() * 13.47;
                 case FuelType.Diesel:
-                    return CalculateFuelUsed() * 12.47;
+                    return CalculateEnergyUsage() * 12.47;
                 case FuelType.Electric:
-                    return CalculateFuelUsed() * 4;
+                    return CalculateEnergyUsage() * 4;
                 case FuelType.Hybrid:
-                    return CalculateFuelUsed() * 7.47;
+                    return CalculateEnergyUsage() * 7.47;
                 default:
-                    return CalculateFuelUsed() * 13.47;
+                    return CalculateEnergyUsage() * 13.47;
             } 
         }
 
@@ -48,7 +48,7 @@
 
         public string GetTripDetails()
         {
-            return $"Turen d. {Date}, med id: {Id}, som har en tid på {CalculateDuration().Hours.ToString()} timer. Turen var {Distance:F0}km lang, turen kostede {CalculateTripPrice().ToString("F2")}kr.";
+            return $"Turen d. {Date}, med id: {Id}, som har en tid på {CalculateDuration().Hours.ToString()} timer. Turen var {Distance:F0}km lang, turen kostede {CalculateTripPrice().ToString("F2")}kr. EnergyLevel: {Car.GetEnergyLevel():F2} / {Car.Capacity}.";
         }
     }
 }

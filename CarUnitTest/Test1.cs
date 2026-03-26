@@ -9,7 +9,7 @@ namespace CarUnitTest
         public void GetTripsByDate_ReturnsMatchingTrips()
         {
             DateTime today = new DateTime(2026, 6, 1);
-            Car car = new FuelCar("Audi", "A4", 2001, "CN45986", 490000, 14.3, FuelType.Benzin);
+            Car car = new FuelCar("Audi", "A4", 2001, "CN45986", 490000, 14.3, 50, true, FuelType.Benzin);
             Trip trip1 = new Trip(today.AddDays(1), today.AddHours(1), today.AddDays(1), 1, 70, car);
             Trip trip2 = new Trip(today.AddHours(1), today.AddHours(1), today.AddMinutes(1), 2, 70, car);
             Trip trip3 = new Trip(today.AddHours(1), today.AddHours(1), today.AddHours(1), 3, 70, car);
@@ -30,7 +30,7 @@ namespace CarUnitTest
         public void GetTripsByDate_ReturnsEmptyListOfTrips()
         {
             DateTime today = new DateTime(2026, 6, 1);
-            Car car = new FuelCar("Audi", "A4", 2001, "CN45986", 490000, 14.3, FuelType.Benzin);
+            Car car = new FuelCar("Audi", "A4", 2001, "CN45986", 490000, 14.3, 50, true, FuelType.Benzin);
             Trip trip1 = new Trip(today.AddDays(1), today.AddDays(1), today.AddDays(1), 1, 70, car);
             Trip trip2 = new Trip(today.AddDays(1), today.AddDays(1), today.AddDays(1), 2, 70, car);
             Trip trip3 = new Trip(today.AddDays(1), today.AddDays(1), today.AddDays(1), 3, 70, car);
@@ -51,7 +51,7 @@ namespace CarUnitTest
         public void GetTripsInTimeInterval_ReturnsMatchingTrips()
         {
             DateTime today = new DateTime(2026, 6, 1, 10, 0, 0);
-            Car car = new FuelCar("Audi", "A4", 2001, "CN45986", 490000, 14.3, FuelType.Benzin);
+            Car car = new FuelCar("Audi", "A4", 2001, "CN45986", 490000, 14.3, 50, true, FuelType.Benzin);
             Trip trip1 = new Trip(today, today.AddHours(6), today.AddDays(1), 1, 70, car);
             Trip trip2 = new Trip(today, today, today.AddDays(1), 2, 70, car);
             Trip trip3 = new Trip(today, today, today.AddDays(1), 3, 70, car);
@@ -72,7 +72,7 @@ namespace CarUnitTest
         public void GetTripsInTimeInterval_ReturnsTripsWithEqualStartTime()
         {
             DateTime today = new DateTime(2026, 6, 1, 10, 0, 0);
-            Car car = new FuelCar("Audi", "A4", 2001, "CN45986", 490000, 14.3, FuelType.Benzin);
+            Car car = new FuelCar("Audi", "A4", 2001, "CN45986", 490000, 14.3, 50, true, FuelType.Benzin);
             Trip trip1 = new Trip(today, today, today.AddDays(1), 1, 70, car);
             Trip trip2 = new Trip(today, today.AddHours(5), today.AddDays(1), 2, 70, car);
 

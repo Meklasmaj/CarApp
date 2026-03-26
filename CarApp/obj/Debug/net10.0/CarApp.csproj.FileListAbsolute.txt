@@ -26,3 +26,18 @@ D:\Datamatiker\Programmering\Projects\CarApp\CarApp\obj\Debug\net10.0\refint\Car
 D:\Datamatiker\Programmering\Projects\CarApp\CarApp\obj\Debug\net10.0\CarApp.pdb
 D:\Datamatiker\Programmering\Projects\CarApp\CarApp\obj\Debug\net10.0\CarApp.genruntimeconfig.cache
 D:\Datamatiker\Programmering\Projects\CarApp\CarApp\obj\Debug\net10.0\ref\CarApp.dll
+C:\Users\admin\OneDrive\Dokumenter\Datamatiker UCL\Programmering\GitHub\CarApp Team 2\CarApp\bin\Debug\net10.0\CarApp.exe
+C:\Users\admin\OneDrive\Dokumenter\Datamatiker UCL\Programmering\GitHub\CarApp Team 2\CarApp\bin\Debug\net10.0\CarApp.deps.json
+C:\Users\admin\OneDrive\Dokumenter\Datamatiker UCL\Programmering\GitHub\CarApp Team 2\CarApp\bin\Debug\net10.0\CarApp.runtimeconfig.json
+C:\Users\admin\OneDrive\Dokumenter\Datamatiker UCL\Programmering\GitHub\CarApp Team 2\CarApp\bin\Debug\net10.0\CarApp.dll
+C:\Users\admin\OneDrive\Dokumenter\Datamatiker UCL\Programmering\GitHub\CarApp Team 2\CarApp\bin\Debug\net10.0\CarApp.pdb
+C:\Users\admin\OneDrive\Dokumenter\Datamatiker UCL\Programmering\GitHub\CarApp Team 2\CarApp\obj\Debug\net10.0\CarApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\OneDrive\Dokumenter\Datamatiker UCL\Programmering\GitHub\CarApp Team 2\CarApp\obj\Debug\net10.0\CarApp.AssemblyInfoInputs.cache
+C:\Users\admin\OneDrive\Dokumenter\Datamatiker UCL\Programmering\GitHub\CarApp Team 2\CarApp\obj\Debug\net10.0\CarApp.AssemblyInfo.cs
+C:\Users\admin\OneDrive\Dokumenter\Datamatiker UCL\Programmering\GitHub\CarApp Team 2\CarApp\obj\Debug\net10.0\CarApp.csproj.CoreCompileInputs.cache
+C:\Users\admin\OneDrive\Dokumenter\Datamatiker UCL\Programmering\GitHub\CarApp Team 2\CarApp\obj\Debug\net10.0\CarApp.sourcelink.json
+C:\Users\admin\OneDrive\Dokumenter\Datamatiker UCL\Programmering\GitHub\CarApp Team 2\CarApp\obj\Debug\net10.0\CarApp.dll
+C:\Users\admin\OneDrive\Dokumenter\Datamatiker UCL\Programmering\GitHub\CarApp Team 2\CarApp\obj\Debug\net10.0\refint\CarApp.dll
+C:\Users\admin\OneDrive\Dokumenter\Datamatiker UCL\Programmering\GitHub\CarApp Team 2\CarApp\obj\Debug\net10.0\CarApp.pdb
+C:\Users\admin\OneDrive\Dokumenter\Datamatiker UCL\Programmering\GitHub\CarApp Team 2\CarApp\obj\Debug\net10.0\CarApp.genruntimeconfig.cache
+C:\Users\admin\OneDrive\Dokumenter\Datamatiker UCL\Programmering\GitHub\CarApp Team 2\CarApp\obj\Debug\net10.0\ref\CarApp.dll
