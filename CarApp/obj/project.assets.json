@@ -8,23 +8,23 @@
     "net10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\jensb\\.nuget\\packages\\": {},
+    "C:\\Users\\admin\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jensb\\source\\repos\\CarApp\\CarApp\\CarApp.csproj",
+      "projectUniqueName": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarApp\\CarApp.csproj",
       "projectName": "CarApp",
-      "projectPath": "C:\\Users\\jensb\\source\\repos\\CarApp\\CarApp\\CarApp.csproj",
-      "packagesPath": "C:\\Users\\jensb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jensb\\source\\repos\\CarApp\\CarApp\\obj\\",
+      "projectPath": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarApp\\CarApp.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\jensb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
