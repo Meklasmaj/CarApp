@@ -6,6 +6,7 @@ public class ElectricCar : Car, ISellable, IInsurable
     private double BatteryLevel;
     public double Price { get; private set; }
     public string RegistrationNumber => _licensePlate;
+    private bool Ignition;
 
     public ElectricCar(string brand, string model, int year, string licensePlate, int odometer, double usage, double capacity,
         bool ignition, FuelType fuelType, double price) : base(brand, model, year, licensePlate, odometer, usage, capacity, ignition)
@@ -13,6 +14,7 @@ public class ElectricCar : Car, ISellable, IInsurable
         _fuelType = fuelType;
         BatteryLevel = capacity;
         Price = price;
+        Ignition = ignition;
     }
     public override FuelType GetFuelType()
     {
@@ -46,5 +48,26 @@ public class ElectricCar : Car, ISellable, IInsurable
     public void Charge(double kwH)
     {
         BatteryLevel = Capacity;
+    }
+    
+    public override string ToString()
+    {
+        return $"{_fuelType},{_brand},{_model},{_year},{_licensePlate},{_odometer},{Usage},{Capacity},{Ignition},{Price}";
+    }
+
+    public static ElectricCar FromString(string data)
+    {
+        string[] parts = data.Split(',');
+        FuelType fuelType = (FuelType)Enum.Parse(typeof(FuelType), parts[0]);
+        string brand = parts[1];
+        string model = parts[2];
+        int year = int.Parse(parts[3]);
+        string licensePlate = parts[4];
+        int odometer = int.Parse(parts[5]);
+        double usage = double.Parse(parts[6]);
+        double capacity = double.Parse(parts[7]);
+        bool ignition = bool.Parse(parts[8]);
+        double price = double.Parse(parts[9]);
+        return new ElectricCar(brand, model, year, licensePlate, odometer, usage, capacity, ignition, fuelType, price);
     }
 }

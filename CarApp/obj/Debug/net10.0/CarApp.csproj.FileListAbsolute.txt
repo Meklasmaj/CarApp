@@ -56,3 +56,4 @@ C:\Users\jensb\source\repos\CarApp\CarApp\obj\Debug\net10.0\refint\CarApp.dll
 C:\Users\jensb\source\repos\CarApp\CarApp\obj\Debug\net10.0\CarApp.pdb
 C:\Users\jensb\source\repos\CarApp\CarApp\obj\Debug\net10.0\CarApp.genruntimeconfig.cache
 C:\Users\jensb\source\repos\CarApp\CarApp\obj\Debug\net10.0\ref\CarApp.dll
+E:\Datamatiker\Programmering\Projects\CarApp\CarApp\obj\Debug\net10.0\CarApp.sourcelink.json

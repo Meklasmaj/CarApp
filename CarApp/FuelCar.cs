@@ -8,13 +8,15 @@ public class FuelCar : Car, ISellable, IInsurable
     public double FuelLevel { get; private set; }
     public double Price { get; private set; }
     public string RegistrationNumber => _licensePlate;
+    private bool Ignition;
 
     public FuelCar(string brand, string model, int year, string licensePlate, int odometer, double usage, double capacity,
-        bool ignition, FuelType fuelType,double price) : base(brand, model, year, licensePlate, odometer, usage, capacity, ignition)
+        bool ignition, FuelType fuelType, double price) : base(brand, model, year, licensePlate, odometer, usage, capacity, ignition)
     {
         _fuelType = fuelType;
         FuelLevel = capacity;
         Price = price;
+        Ignition = ignition;
     }
     public override FuelType GetFuelType()
     {
@@ -56,5 +58,26 @@ public class FuelCar : Car, ISellable, IInsurable
             Console.WriteLine("Du har fyldt for meget brændstof på og nu har du ødelagt dine fine sko.");
             FuelLevel = Capacity;
         }
+    }
+
+    public override string ToString()
+    {
+        return $"{_fuelType},{_brand},{_model},{_year},{_licensePlate},{_odometer},{Usage},{Capacity},{Ignition},{Price}";
+    }
+
+    public static FuelCar FromString(string data)
+    {
+        string[] parts = data.Split(',');
+        FuelType fuelType = (FuelType)Enum.Parse(typeof(FuelType), parts[0]);
+        string brand = parts[1];
+        string model = parts[2];
+        int year = int.Parse(parts[3]);
+        string licensePlate = parts[4];
+        int odometer = int.Parse(parts[5]);
+        double usage = double.Parse(parts[6]);
+        double capacity = double.Parse(parts[7]);
+        bool ignition = bool.Parse(parts[8]);
+        double price = double.Parse(parts[9]);
+        return new FuelCar(brand, model, year, licensePlate, odometer, usage, capacity, ignition, fuelType, price);
     }
 }
