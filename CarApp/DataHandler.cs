@@ -30,7 +30,7 @@ public class DataHandler
             {
                 if (!string.IsNullOrEmpty(line))
                 {
-                    if (line[0] == 'E')
+                    if (line.Split(',')[0] == "Electric")
                     {
                         newCars.Add(ElectricCar.FromString(line));
                     }

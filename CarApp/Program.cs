@@ -7,18 +7,23 @@
             DataHandler handler = new DataHandler("cars.txt");
             List<Car> _cars = new List<Car>();
 
+            //Load File
             if (File.Exists("cars.txt"))
             {
                 _cars = handler.LoadCarsFromFile();
             }
+            
+            //Work with data
             _cars.Add(new FuelCar("Mazda", "3", 2017, "CN45986", 180000, 19.7, 50, true, FuelType.Benzin, 90000));
             _cars.Add(new ElectricCar("Tesla", "3", 2017, "BP49999", 90000, 6, 65, true, FuelType.Electric, 190000));
-            handler.SaveCarsToFile(_cars);
             foreach (Car car in _cars)
             {
                 Console.WriteLine(car.GetCarDetails());
             }
             Console.ReadLine();
+            
+            //Save file
+            handler.SaveCarsToFile(_cars);
 
 
             //List<Car> _cars = new List<Car> { new FuelCar("Mazda", "3", 2017, "CN45986", 180000, 19.7, 50, true, FuelType.Benzin, 90000), new ElectricCar("Tesla", "3", 2017, "BP49999", 90000, 6, 65, true, FuelType.Electric, 190000) };
