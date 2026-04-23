@@ -10,6 +10,14 @@ public class FuelCar : Car, ISellable, IInsurable
     public string RegistrationNumber => _licensePlate;
     private bool Ignition;
 
+    public FuelCar(string brand, string model, int year, string licensePlate, double capacity, double usage, double pris) : base(brand, model, year, licensePlate, 0, usage, capacity, false)
+    {
+        _fuelType = FuelType.Benzin;
+        FuelLevel = capacity;
+        Price = pris;
+        Ignition = false;
+    }
+
     public FuelCar(string brand, string model, int year, string licensePlate, int odometer, double usage, double capacity,
         bool ignition, FuelType fuelType, double price) : base(brand, model, year, licensePlate, odometer, usage, capacity, ignition)
     {
@@ -62,22 +70,27 @@ public class FuelCar : Car, ISellable, IInsurable
 
     public override string ToString()
     {
-        return $"{_fuelType},{_brand},{_model},{_year},{_licensePlate},{_odometer},{Usage},{Capacity},{Ignition},{Price}";
+        return $"{_fuelType}|{_brand}|{_model}|{_year}|{_licensePlate}|{Usage}|{Capacity}|{Price}";
+        // return $"{_fuelType},{_brand},{_model},{_year},{_licensePlate},{_odometer},{Usage},{Capacity},{Ignition},{Price}";
     }
 
     public static FuelCar FromString(string data)
     {
-        string[] parts = data.Split(',');
+        string[] parts = data.Split('|');
         FuelType fuelType = (FuelType)Enum.Parse(typeof(FuelType), parts[0]);
         string brand = parts[1];
         string model = parts[2];
         int year = int.Parse(parts[3]);
         string licensePlate = parts[4];
-        int odometer = int.Parse(parts[5]);
+        double capacity = double.Parse(parts[5]);
         double usage = double.Parse(parts[6]);
-        double capacity = double.Parse(parts[7]);
-        bool ignition = bool.Parse(parts[8]);
-        double price = double.Parse(parts[9]);
-        return new FuelCar(brand, model, year, licensePlate, odometer, usage, capacity, ignition, fuelType, price);
+        double price = double.Parse(parts[7]);
+        return new FuelCar(brand, model, year, licensePlate, capacity, usage, price);
+        //int odometer = int.Parse(parts[5]);
+        //double usage = double.Parse(parts[6]);
+        //double capacity = double.Parse(parts[7]);
+        //bool ignition = bool.Parse(parts[8]);
+        //double price = double.Parse(parts[9]);
+        //return new FuelCar(brand, model, year, licensePlate, odometer, usage, capacity, ignition, fuelType, price);
     }
 }

@@ -4,26 +4,58 @@
     {
         static void Main(string[] args)
         {
-            DataHandler handler = new DataHandler("cars.txt");
-            List<Car> _cars = new List<Car>();
+            // ICarRepository repo = new InMemoryCarRepoistory();
+            ICarRepository repo = new FileCarRepository("cars.txt");
 
-            //Load File
-            if (File.Exists("cars.txt"))
+            try
             {
-                _cars = handler.LoadCarsFromFile();
+                repo.Add(new FuelCar("Toyota", "Corolla", 2022, "AB12345", 50, 18, 45000));
+                repo.Add(new ElectricCar("Tesla", "Model 3", 2023, "CD67890", 75, 6.5, 380000));
+            } catch(Exception ex) {
+                Console.WriteLine(ex.StackTrace);
+
             }
-            
-            //Work with data
-            _cars.Add(new FuelCar("Mazda", "3", 2017, "CN45986", 180000, 19.7, 50, true, FuelType.Benzin, 90000));
-            _cars.Add(new ElectricCar("Tesla", "3", 2017, "BP49999", 90000, 6, 65, true, FuelType.Electric, 190000));
-            foreach (Car car in _cars)
-            {
-                Console.WriteLine(car.GetCarDetails());
-            }
-            Console.ReadLine();
-            
-            //Save file
-            handler.SaveCarsToFile(_cars);
+            // Hent alle og udskriv
+
+            foreach (Car car in repo.GetAll())
+                Console.WriteLine($"{car._brand} {car._model} — {car._licensePlate}");
+
+            //// Hent en specifik bil
+            //Car found = repo.GetByLicensePlate("AB12345");
+            //Console.WriteLine(found != null ? $"Fundet: {found._brand}" : "Ikke fundet");
+
+            //// Opdater en bil og verificer
+            //repo.Update(new FuelCar("Suzuki", "Swift", 2019, "AB12345", 40, 21, 44000));
+            //Car found2 = repo.GetByLicensePlate("AB12345");
+            //Console.WriteLine(found2 != null ? $"Fundet: {found2._brand}" : "Ikke fundet");
+
+            //repo.Update(new ElectricCar("Nissan", "Leaf", 2020, "XE60890", 40, 5.5, 100000));
+
+            //// Slet en bil og verificer
+            //repo.Delete("CD67890");
+            //Console.WriteLine($"Antal biler: {repo.GetAll().Count()}"); // 1
+
+
+            //DataHandler handler = new DataHandler("cars.txt");
+            //List<Car> _cars = new List<Car>();
+
+            ////Load File
+            //if (File.Exists("cars.txt"))
+            //{
+            //    _cars = handler.LoadCarsFromFile();
+            //}
+
+            ////Work with data
+            //_cars.Add(new FuelCar("Mazda", "3", 2017, "CN45986", 180000, 19.7, 50, true, FuelType.Benzin, 90000));
+            //_cars.Add(new ElectricCar("Tesla", "3", 2017, "BP49999", 90000, 6, 65, true, FuelType.Electric, 190000));
+            //foreach (Car car in _cars)
+            //{
+            //    Console.WriteLine(car.GetCarDetails());
+            //}
+            //Console.ReadLine();
+
+            ////Save file
+            //handler.SaveCarsToFile(_cars);
 
 
             //List<Car> _cars = new List<Car> { new FuelCar("Mazda", "3", 2017, "CN45986", 180000, 19.7, 50, true, FuelType.Benzin, 90000), new ElectricCar("Tesla", "3", 2017, "BP49999", 90000, 6, 65, true, FuelType.Electric, 190000) };

@@ -1,0 +1,4 @@
+Benzin|Toyota|Corolla|2022|AB12345|18|50|45000
+
+
+Electric|Tesla|Model 3|2023|CD67890|75|6,5|380000

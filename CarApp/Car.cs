@@ -4,11 +4,11 @@ namespace CarApp
 {
     public abstract class Car
     {
-        protected string _brand;
-        protected string _model;
-        protected int _year;
-        protected int _odometer;
-        protected string _licensePlate;
+        public string _brand { get; set; }
+        public string _model { get; set; }
+        public int _year { get; set; }
+        public int _odometer { get; set; }
+        public string _licensePlate { get; private set; }
         public double Usage { get; set; }
         public bool IsEngineOn {  get; private set; }
         public double Capacity { get; private set; }

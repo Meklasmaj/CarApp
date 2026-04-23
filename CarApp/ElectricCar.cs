@@ -8,6 +8,15 @@ public class ElectricCar : Car, ISellable, IInsurable
     public string RegistrationNumber => _licensePlate;
     private bool Ignition;
 
+
+    public ElectricCar(string brand, string model, int year, string licensePlate, double capacity, double usage, double price) : base(brand, model, year, licensePlate, 0, capacity, usage, false)
+    {
+        _fuelType = FuelType.Electric;
+        BatteryLevel = capacity;
+        Price = price;
+        Ignition = false;
+    }
+
     public ElectricCar(string brand, string model, int year, string licensePlate, int odometer, double usage, double capacity,
         bool ignition, FuelType fuelType, double price) : base(brand, model, year, licensePlate, odometer, usage, capacity, ignition)
     {
@@ -52,22 +61,27 @@ public class ElectricCar : Car, ISellable, IInsurable
     
     public override string ToString()
     {
-        return $"{_fuelType},{_brand},{_model},{_year},{_licensePlate},{_odometer},{Usage},{Capacity},{Ignition},{Price}";
+        return $"{_fuelType}|{_brand}|{_model}|{_year}|{_licensePlate}|{Usage}|{Capacity}|{Price}";
+        // return $"{_fuelType},{_brand},{_model},{_year},{_licensePlate},{_odometer},{Usage},{Capacity},{Ignition},{Price}";
     }
 
     public static ElectricCar FromString(string data)
     {
-        string[] parts = data.Split(',');
+        string[] parts = data.Split('|');
         FuelType fuelType = (FuelType)Enum.Parse(typeof(FuelType), parts[0]);
         string brand = parts[1];
         string model = parts[2];
         int year = int.Parse(parts[3]);
         string licensePlate = parts[4];
-        int odometer = int.Parse(parts[5]);
+        double capacity = double.Parse(parts[5]);
         double usage = double.Parse(parts[6]);
-        double capacity = double.Parse(parts[7]);
-        bool ignition = bool.Parse(parts[8]);
-        double price = double.Parse(parts[9]);
-        return new ElectricCar(brand, model, year, licensePlate, odometer, usage, capacity, ignition, fuelType, price);
+        double price = double.Parse(parts[7]);
+        return new ElectricCar(brand, model, year, licensePlate, capacity, usage, price);
+        // int odometer = int.Parse(parts[5]);
+        // double usage = double.Parse(parts[6]);
+        // double capacity = double.Parse(parts[7]);
+        // bool ignition = bool.Parse(parts[8]);
+        // double price = double.Parse(parts[9]);
+        // return new ElectricCar(brand, model, year, licensePlate, odometer, usage, capacity, ignition, fuelType, price);
     }
 }
