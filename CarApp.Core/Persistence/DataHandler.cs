@@ -1,4 +1,5 @@
-﻿namespace CarApp;
+﻿using CarApp.Core.Models;
+namespace CarApp.Core.Persistence;
 
 public class DataHandler
 {

@@ -7,8 +7,19 @@
   "targets": {
     ".NETCoreApp,Version=v10.0": {
       "CarApp/1.0.0": {
+        "dependencies": {
+          "CarApp.Core": "1.0.0.0"
+        },
         "runtime": {
           "CarApp.dll": {}
+        }
+      },
+      "CarApp.Core/1.0.0.0": {
+        "runtime": {
+          "CarApp.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
@@ -16,6 +27,11 @@
   "libraries": {
     "CarApp/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CarApp.Core/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

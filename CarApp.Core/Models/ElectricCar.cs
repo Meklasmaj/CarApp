@@ -1,4 +1,6 @@
-﻿namespace CarApp;
+﻿using CarApp.Core.Interfaces;
+
+namespace CarApp.Core.Models;
 
 public class ElectricCar : Car, ISellable, IInsurable
 {

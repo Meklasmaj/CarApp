@@ -1,4 +1,7 @@
-﻿namespace CarApp
+﻿using CarApp.Core.Models;
+using CarApp.Core.Persistence;
+
+namespace CarApp
 {
     internal class Program
     {

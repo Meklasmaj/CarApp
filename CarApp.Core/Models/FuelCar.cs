@@ -1,6 +1,7 @@
 ﻿using System.Xml.Linq;
+using CarApp.Core.Interfaces;
 
-namespace CarApp;
+namespace CarApp.Core.Models;
 
 public class FuelCar : Car, ISellable, IInsurable
 {

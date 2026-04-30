@@ -3,44 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{666E1D56-F21C-2DEF-624A-6C8713B49DEE}|CarApp\\CarApp.csproj|c:\\users\\admin\\onedrive\\dokumenter\\datamatiker ucl\\programmering\\github\\carapp team 2\\carapp\\filecarrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{666E1D56-F21C-2DEF-624A-6C8713B49DEE}|CarApp\\CarApp.csproj|solutionrelative:carapp\\filecarrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{666E1D56-F21C-2DEF-624A-6C8713B49DEE}|CarApp\\CarApp.csproj|c:\\users\\admin\\onedrive\\dokumenter\\datamatiker ucl\\programmering\\github\\carapp team 2\\carapp\\carapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{666E1D56-F21C-2DEF-624A-6C8713B49DEE}|CarApp\\CarApp.csproj|solutionrelative:carapp\\carapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{666E1D56-F21C-2DEF-624A-6C8713B49DEE}|CarApp\\CarApp.csproj|c:\\users\\admin\\onedrive\\dokumenter\\datamatiker ucl\\programmering\\github\\carapp team 2\\carapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{666E1D56-F21C-2DEF-624A-6C8713B49DEE}|CarApp\\CarApp.csproj|solutionrelative:carapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{666E1D56-F21C-2DEF-624A-6C8713B49DEE}|CarApp\\CarApp.csproj|c:\\users\\admin\\onedrive\\dokumenter\\datamatiker ucl\\programmering\\github\\carapp team 2\\carapp\\fuelcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{666E1D56-F21C-2DEF-624A-6C8713B49DEE}|CarApp\\CarApp.csproj|solutionrelative:carapp\\fuelcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{666E1D56-F21C-2DEF-624A-6C8713B49DEE}|CarApp\\CarApp.csproj|c:\\users\\admin\\onedrive\\dokumenter\\datamatiker ucl\\programmering\\github\\carapp team 2\\carapp\\electriccar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{666E1D56-F21C-2DEF-624A-6C8713B49DEE}|CarApp\\CarApp.csproj|solutionrelative:carapp\\electriccar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{666E1D56-F21C-2DEF-624A-6C8713B49DEE}|CarApp\\CarApp.csproj|c:\\users\\admin\\onedrive\\dokumenter\\datamatiker ucl\\programmering\\github\\carapp team 2\\carapp\\datahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{666E1D56-F21C-2DEF-624A-6C8713B49DEE}|CarApp\\CarApp.csproj|solutionrelative:carapp\\datahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{666E1D56-F21C-2DEF-624A-6C8713B49DEE}|CarApp\\CarApp.csproj|c:\\users\\admin\\onedrive\\dokumenter\\datamatiker ucl\\programmering\\github\\carapp team 2\\carapp\\inmemorycarrepoistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{666E1D56-F21C-2DEF-624A-6C8713B49DEE}|CarApp\\CarApp.csproj|solutionrelative:carapp\\inmemorycarrepoistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{666E1D56-F21C-2DEF-624A-6C8713B49DEE}|CarApp\\CarApp.csproj|c:\\users\\admin\\onedrive\\dokumenter\\datamatiker ucl\\programmering\\github\\carapp team 2\\carapp\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{666E1D56-F21C-2DEF-624A-6C8713B49DEE}|CarApp\\CarApp.csproj|solutionrelative:carapp\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{666E1D56-F21C-2DEF-624A-6C8713B49DEE}|CarApp\\CarApp.csproj|c:\\users\\admin\\onedrive\\dokumenter\\datamatiker ucl\\programmering\\github\\carapp team 2\\carapp\\icarrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{666E1D56-F21C-2DEF-624A-6C8713B49DEE}|CarApp\\CarApp.csproj|solutionrelative:carapp\\icarrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{666E1D56-F21C-2DEF-624A-6C8713B49DEE}|CarApp\\CarApp.csproj|c:\\users\\admin\\onedrive\\dokumenter\\datamatiker ucl\\programmering\\github\\carapp team 2\\carapp\\trip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{666E1D56-F21C-2DEF-624A-6C8713B49DEE}|CarApp\\CarApp.csproj|solutionrelative:carapp\\trip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01C494C5-7950-48B9-918A-8BF1817417D0}|CarUnitTest\\CarUnitTest.csproj|c:\\users\\admin\\onedrive\\dokumenter\\datamatiker ucl\\programmering\\github\\carapp team 2\\carunittest\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01C494C5-7950-48B9-918A-8BF1817417D0}|CarUnitTest\\CarUnitTest.csproj|solutionrelative:carunittest\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2C29DD1-69D7-4638-B46F-33A87BC6C570}|CarApp.Core\\CarApp.Core.csproj|c:\\users\\admin\\onedrive\\dokumenter\\datamatiker ucl\\programmering\\github\\carapp team 2\\carapp.core\\carapp.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2C29DD1-69D7-4638-B46F-33A87BC6C570}|CarApp.Core\\CarApp.Core.csproj|solutionrelative:carapp.core\\carapp.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,8 +22,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 222,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CarApp",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarApp\\CarApp.csproj",
+              "RelativeDocumentMoniker": "CarApp\\CarApp.csproj",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarApp\\CarApp.csproj*",
+              "RelativeToolTip": "CarApp\\CarApp.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-30T08:24:10.566Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -66,130 +51,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DataHandler.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarApp\\DataHandler.cs",
-              "RelativeDocumentMoniker": "CarApp\\DataHandler.cs",
-              "ToolTip": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarApp\\DataHandler.cs",
-              "RelativeToolTip": "CarApp\\DataHandler.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwCAAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T09:26:20.196Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FileCarRepository.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarApp\\FileCarRepository.cs",
-              "RelativeDocumentMoniker": "CarApp\\FileCarRepository.cs",
-              "ToolTip": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarApp\\FileCarRepository.cs",
-              "RelativeToolTip": "CarApp\\FileCarRepository.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAwwEQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T08:56:59.214Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "InMemoryCarRepoistory.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarApp\\InMemoryCarRepoistory.cs",
-              "RelativeDocumentMoniker": "CarApp\\InMemoryCarRepoistory.cs",
-              "ToolTip": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarApp\\InMemoryCarRepoistory.cs",
-              "RelativeToolTip": "CarApp\\InMemoryCarRepoistory.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCgAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T08:09:04.495Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ICarRepository.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarApp\\ICarRepository.cs",
-              "RelativeDocumentMoniker": "CarApp\\ICarRepository.cs",
-              "ToolTip": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarApp\\ICarRepository.cs",
-              "RelativeToolTip": "CarApp\\ICarRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T08:01:16.501Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ElectricCar.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarApp\\ElectricCar.cs",
-              "RelativeDocumentMoniker": "CarApp\\ElectricCar.cs",
-              "ToolTip": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarApp\\ElectricCar.cs",
-              "RelativeToolTip": "CarApp\\ElectricCar.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAuwDMAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T08:15:28.685Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FuelCar.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarApp\\FuelCar.cs",
-              "RelativeDocumentMoniker": "CarApp\\FuelCar.cs",
-              "ToolTip": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarApp\\FuelCar.cs",
-              "RelativeToolTip": "CarApp\\FuelCar.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAYwEkAAAB9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-19T11:26:28.134Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Car.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarApp\\Car.cs",
-              "RelativeDocumentMoniker": "CarApp\\Car.cs",
-              "ToolTip": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarApp\\Car.cs",
-              "RelativeToolTip": "CarApp\\Car.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T11:37:57.889Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Trip.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarApp\\Trip.cs",
-              "RelativeDocumentMoniker": "CarApp\\Trip.cs",
-              "ToolTip": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarApp\\Trip.cs",
-              "RelativeToolTip": "CarApp\\Trip.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADgvw4AAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T11:37:22.634Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Test1.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarUnitTest\\Test1.cs",
-              "RelativeDocumentMoniker": "CarUnitTest\\Test1.cs",
-              "ToolTip": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarUnitTest\\Test1.cs",
-              "RelativeToolTip": "CarUnitTest\\Test1.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwB0AAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T11:31:05.503Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarApp\\Program.cs",
               "RelativeDocumentMoniker": "CarApp\\Program.cs",
               "ToolTip": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarApp\\Program.cs",
               "RelativeToolTip": "CarApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-05T09:04:37.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CarApp.Core",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarApp.Core\\CarApp.Core.csproj",
+              "RelativeDocumentMoniker": "CarApp.Core\\CarApp.Core.csproj",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarApp.Core\\CarApp.Core.csproj",
+              "RelativeToolTip": "CarApp.Core\\CarApp.Core.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-30T07:57:46.995Z",
               "EditorCaption": ""
             }
           ]
