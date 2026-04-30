@@ -7,11 +7,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Reference Include="CarApp.Core">
-      <HintPath>..\CarApp.Core\bin\Debug\net10.0\CarApp.Core.dll</HintPath>
-    </Reference>
-  </ItemGroup>
+    <!--<ItemGroup>
+	    <ProjectReference Include="..\CarApp.Core\CarApp.Core.csproj" />
+    </ItemGroup>-->
 
+    <ItemGroup>
+      <Reference Include="CarApp.Core">
+        <HintPath>..\CarApp.Core\bin\Debug\net10.0\CarApp.Core.dll</HintPath>
+      </Reference>
+    </ItemGroup>
 
 </Project>
