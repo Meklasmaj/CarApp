@@ -1,0 +1,95 @@
+﻿<!-- CarApp.Wpf/Views/CarView.xaml -->
+<Window x:Class="CarApp.Wpf.Views.CarView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="CarApp" Height="900" Width="1600" Background="#1E1E1E">
+    <Grid Margin="0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <!-- Inputfelter -->
+            <RowDefinition Height="Auto"/>
+            <!-- Knapper -->
+            <RowDefinition Height="Auto"/>
+            <!-- Søgelinje -->
+            <RowDefinition Height="*"/>
+            <!-- Liste -->
+        </Grid.RowDefinitions>
+
+        <!-- SEKTION 1: Inputfelter -->
+        <StackPanel Grid.Row="0" Margin="0,0,0,8">
+            <WrapPanel>
+                <StackPanel Width="160" Margin="4">
+                    <Label Content="Brand" Foreground="White"/>
+                    <!-- TextBox bundet til SelectedCar.Brand -->
+                    <TextBox Text="{Binding SelectedCar._brand, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                </StackPanel>
+                <StackPanel Width="160" Margin="4">
+                    <Label Content="Model" Foreground="White"/>
+                    <!-- TextBox bundet til SelectedCar.Model -->
+                    <TextBox Text="{Binding SelectedCar._model, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                </StackPanel>
+                <StackPanel Width="80" Margin="4">
+                    <Label Content="Year" Foreground="White"/>
+                    <!-- TextBox bundet til SelectedCar.Year -->
+                    <TextBox Text="{Binding TODO, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                </StackPanel>
+                <StackPanel Width="120" Margin="4">
+                    <Label Content="Licenseplate" Foreground="White"/>
+                    <!-- TextBox bundet til SelectedCar.LicensePlate -->
+                    <TextBox Text="{Binding SelectedCar._licensePlate, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                </StackPanel>
+                <StackPanel Width="120" Margin="4">
+                    <Label Content="Odometer" Foreground="White"/>
+                    <!-- TextBox bundet til SelectedCar.Odometer -->
+                    <TextBox Text="{Binding TODO, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                </StackPanel>
+                <StackPanel Width="120" Margin="4">
+                    <Label Content="Usage" Foreground="White"/>
+                    <!-- TextBox bundet til SelectedCar.Usage -->
+                    <TextBox Text="{Binding TODO, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                </StackPanel>
+                <StackPanel Width="120" Margin="4">
+                    <Label Content="Capacity" Foreground="White"/>
+                    <!-- TextBox bundet til SelectedCar.Capacity -->
+                    <TextBox Text="{Binding TODO, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                </StackPanel>
+            </WrapPanel>
+        </StackPanel>
+
+        <!-- SEKTION 2: Handlingsknapper -->
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0,0,0,8">
+            <!-- TODO: Command bundet til AddCarCommand -->
+            <Button Content="Tilføj" Command="{Binding AddCarCommand}" Width="90" Margin="4"/>
+            <!-- UpdateCarCommand og DeleteCarCommand udleveres i Øvelse 6 -->
+            <Button Content="Opdater" Command="{Binding UpdateCarCommand}" Width="90" Margin="4"/>
+            <Button Content="Slet"    Command="{Binding DeleteCarCommand}" Width="90" Margin="4"/>
+        </StackPanel>
+
+        <!-- SEKTION 3: Søgelinje -->
+        <StackPanel Grid.Row="2" Orientation="Horizontal" Margin="0,0,0,8">
+            <Label Content="Søg nummerplade:" Foreground="Gray"/>
+            <!-- TextBox bundet til SearchPlate -->
+            <TextBox Text="{Binding SearchPlate, UpdateSourceTrigger=PropertyChanged}" Width="140" Margin="4,0"/>
+            <!-- Command bundet til FindCarCommand -->
+            <Button Content="Find" Command="{Binding FindCarCommand}" Width="70" Margin="4,0"/>
+        </StackPanel>
+
+        <!-- SEKTION 4: Billiste -->
+        <!-- TODO: ItemsSource bundet til Cars, SelectedItem bundet til SelectedCar -->
+        <ListView Grid.Row="3"
+                  ItemsSource="{Binding Cars}"
+                  SelectedItem="{Binding SelectedCar, Mode=TwoWay}">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Brand"       DisplayMemberBinding="{Binding _brand}"       Width="120"/>
+                    <GridViewColumn Header="Model"        DisplayMemberBinding="{Binding _model}"       Width="120"/>
+                    <!--<GridViewColumn Header="Year"          DisplayMemberBinding="{Binding _year}"        Width="60"/>-->
+                    <GridViewColumn Header="Licenseplate"  DisplayMemberBinding="{Binding _licensePlate}" Width="120"/>
+                    <!--<GridViewColumn Header="Odometer"  DisplayMemberBinding="{Binding _odometer}" Width="120"/>
+                    <GridViewColumn Header="Usage"  DisplayMemberBinding="{Binding Usage}" Width="120"/>
+                    <GridViewColumn Header="Capacity"  DisplayMemberBinding="{Binding Capacity}" Width="120"/>-->
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</Window>

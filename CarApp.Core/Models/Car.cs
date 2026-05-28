@@ -8,10 +8,10 @@ public abstract class Car
     public string _model { get; set; }
     public int _year { get; set; }
     public int _odometer { get; set; }
-    public string _licensePlate { get; private set; }
+    public string _licensePlate { get; set; }
     public double Usage { get; set; }
-    public bool IsEngineOn {  get; private set; }
-    public double Capacity { get; private set; }
+    public bool IsEngineOn {  get; set; }
+    public double Capacity { get; set; }
     protected List<Trip> _trips = new List<Trip>();
 
 

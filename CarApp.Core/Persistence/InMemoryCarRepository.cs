@@ -4,7 +4,7 @@ using System.Text;
 using CarApp.Core.Models;
 namespace CarApp.Core.Persistence;
 
-public class InMemoryCarRepoistory : ICarRepository
+public class InMemoryCarRepository : ICarRepository
 {
     private readonly List<Car> _cars = new List<Car>();
 
