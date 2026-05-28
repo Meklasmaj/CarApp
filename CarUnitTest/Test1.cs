@@ -1,4 +1,4 @@
-﻿using CarApp;
+﻿using CarApp.Core.Models;
 
 namespace CarUnitTest
 {

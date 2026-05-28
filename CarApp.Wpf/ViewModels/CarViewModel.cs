@@ -59,6 +59,10 @@ namespace CarApp.Wpf.ViewModels
         {
             // TODO: Returner true hvis SelectedCar ikke er null og
             //       LicensePlate, Brand og Model ikke er tomme
+            Console.WriteLine(SelectedCar != null);
+            Console.WriteLine(!string.IsNullOrWhiteSpace(SelectedCar._brand));
+            Console.WriteLine(!string.IsNullOrWhiteSpace(SelectedCar._model));
+            Console.WriteLine(!string.IsNullOrWhiteSpace(SelectedCar._licensePlate));
             return SelectedCar != null &&
                    !string.IsNullOrWhiteSpace(SelectedCar._brand) &&
                    !string.IsNullOrWhiteSpace(SelectedCar._model) &&
