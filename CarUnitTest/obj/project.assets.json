@@ -1036,6 +1036,16 @@
         "runtime": {
           "bin/placeholder/CarApp.dll": {}
         }
+      },
+      "CarApp.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/CarApp.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CarApp.Core.dll": {}
+        }
       }
     }
   },
@@ -2173,32 +2183,38 @@
       "type": "project",
       "path": "../CarApp/CarApp.csproj",
       "msbuildProject": "../CarApp/CarApp.csproj"
+    },
+    "CarApp.Core/1.0.0": {
+      "type": "project",
+      "path": "../CarApp.Core/CarApp.Core.csproj",
+      "msbuildProject": "../CarApp.Core/CarApp.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
       "CarApp >= 1.0.0",
+      "CarApp.Core >= 1.0.0",
       "MSTest >= 4.1.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\admin\\.nuget\\packages\\": {},
+    "C:\\Users\\mekla\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarUnitTest\\CarUnitTest.csproj",
+      "projectUniqueName": "C:\\Users\\mekla\\RiderProjects\\CarApp\\CarUnitTest\\CarUnitTest.csproj",
       "projectName": "CarUnitTest",
-      "projectPath": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarUnitTest\\CarUnitTest.csproj",
-      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarUnitTest\\obj\\",
+      "projectPath": "C:\\Users\\mekla\\RiderProjects\\CarApp\\CarUnitTest\\CarUnitTest.csproj",
+      "packagesPath": "C:\\Users\\mekla\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mekla\\RiderProjects\\CarApp\\CarUnitTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mekla\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2207,16 +2223,17 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net10.0": {
-          "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarApp\\CarApp.csproj": {
-              "projectPath": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarApp\\CarApp.csproj"
+            "C:\\Users\\mekla\\RiderProjects\\CarApp\\CarApp.Core\\CarApp.Core.csproj": {
+              "projectPath": "C:\\Users\\mekla\\RiderProjects\\CarApp\\CarApp.Core\\CarApp.Core.csproj"
+            },
+            "C:\\Users\\mekla\\RiderProjects\\CarApp\\CarApp\\CarApp.csproj": {
+              "projectPath": "C:\\Users\\mekla\\RiderProjects\\CarApp\\CarApp\\CarApp.csproj"
             }
           }
         }
@@ -2231,11 +2248,10 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.200"
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net10.0": {
-        "framework": "net10.0",
         "targetAlias": "net10.0",
         "dependencies": {
           "MSTest": {
@@ -2259,7 +2275,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",

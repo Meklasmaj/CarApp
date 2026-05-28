@@ -61,3 +61,22 @@ C:\Users\admin\OneDrive\Dokumenter\Datamatiker UCL\Programmering\GitHub\CarApp T
 C:\Users\admin\OneDrive\Dokumenter\Datamatiker UCL\Programmering\GitHub\CarApp Team 2\CarApp\bin\Debug\net10.0\CarApp.Core.pdb
 C:\Users\admin\OneDrive\Dokumenter\Datamatiker UCL\Programmering\GitHub\CarApp Team 2\CarApp\obj\Debug\net10.0\CarApp.csproj.AssemblyReference.cache
 C:\Users\admin\OneDrive\Dokumenter\Datamatiker UCL\Programmering\GitHub\CarApp Team 2\CarApp\obj\Debug\net10.0\CarApp.csproj.Up2Date
+C:\Users\mekla\RiderProjects\CarApp\CarApp\bin\Debug\net10.0\CarApp.exe
+C:\Users\mekla\RiderProjects\CarApp\CarApp\bin\Debug\net10.0\CarApp.deps.json
+C:\Users\mekla\RiderProjects\CarApp\CarApp\bin\Debug\net10.0\CarApp.runtimeconfig.json
+C:\Users\mekla\RiderProjects\CarApp\CarApp\bin\Debug\net10.0\CarApp.dll
+C:\Users\mekla\RiderProjects\CarApp\CarApp\bin\Debug\net10.0\CarApp.pdb
+C:\Users\mekla\RiderProjects\CarApp\CarApp\bin\Debug\net10.0\CarApp.Core.dll
+C:\Users\mekla\RiderProjects\CarApp\CarApp\bin\Debug\net10.0\CarApp.Core.pdb
+C:\Users\mekla\RiderProjects\CarApp\CarApp\obj\Debug\net10.0\CarApp.csproj.AssemblyReference.cache
+C:\Users\mekla\RiderProjects\CarApp\CarApp\obj\Debug\net10.0\CarApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mekla\RiderProjects\CarApp\CarApp\obj\Debug\net10.0\CarApp.AssemblyInfoInputs.cache
+C:\Users\mekla\RiderProjects\CarApp\CarApp\obj\Debug\net10.0\CarApp.AssemblyInfo.cs
+C:\Users\mekla\RiderProjects\CarApp\CarApp\obj\Debug\net10.0\CarApp.csproj.CoreCompileInputs.cache
+C:\Users\mekla\RiderProjects\CarApp\CarApp\obj\Debug\net10.0\CarApp.sourcelink.json
+C:\Users\mekla\RiderProjects\CarApp\CarApp\obj\Debug\net10.0\CarApp.csproj.Up2Date
+C:\Users\mekla\RiderProjects\CarApp\CarApp\obj\Debug\net10.0\CarApp.dll
+C:\Users\mekla\RiderProjects\CarApp\CarApp\obj\Debug\net10.0\refint\CarApp.dll
+C:\Users\mekla\RiderProjects\CarApp\CarApp\obj\Debug\net10.0\CarApp.pdb
+C:\Users\mekla\RiderProjects\CarApp\CarApp\obj\Debug\net10.0\CarApp.genruntimeconfig.cache
+C:\Users\mekla\RiderProjects\CarApp\CarApp\obj\Debug\net10.0\ref\CarApp.dll
