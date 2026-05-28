@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2C29DD1-69D7-4638-B46F-33A87BC6C570}|CarApp.Core\\CarApp.Core.csproj|c:\\users\\admin\\onedrive\\dokumenter\\datamatiker ucl\\programmering\\github\\carapp team 2\\carapp.core\\models\\fuelcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2C29DD1-69D7-4638-B46F-33A87BC6C570}|CarApp.Core\\CarApp.Core.csproj|solutionrelative:carapp.core\\models\\fuelcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5C8BE412-3B29-4DD3-9423-F0B95B540BDB}|CarApp.Wpf\\CarApp.Wpf.csproj|c:\\users\\admin\\onedrive\\dokumenter\\datamatiker ucl\\programmering\\github\\carapp team 2\\carapp.wpf\\viewmodels\\carviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C8BE412-3B29-4DD3-9423-F0B95B540BDB}|CarApp.Wpf\\CarApp.Wpf.csproj|solutionrelative:carapp.wpf\\viewmodels\\carviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C8BE412-3B29-4DD3-9423-F0B95B540BDB}|CarApp.Wpf\\CarApp.Wpf.csproj|c:\\users\\admin\\onedrive\\dokumenter\\datamatiker ucl\\programmering\\github\\carapp team 2\\carapp.wpf\\viewmodels\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C8BE412-3B29-4DD3-9423-F0B95B540BDB}|CarApp.Wpf\\CarApp.Wpf.csproj|solutionrelative:carapp.wpf\\viewmodels\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{666E1D56-F21C-2DEF-624A-6C8713B49DEE}|CarApp\\CarApp.csproj|c:\\users\\admin\\onedrive\\dokumenter\\datamatiker ucl\\programmering\\github\\carapp team 2\\carapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{666E1D56-F21C-2DEF-624A-6C8713B49DEE}|CarApp\\CarApp.csproj|solutionrelative:carapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C8BE412-3B29-4DD3-9423-F0B95B540BDB}|CarApp.Wpf\\CarApp.Wpf.csproj|c:\\users\\admin\\onedrive\\dokumenter\\datamatiker ucl\\programmering\\github\\carapp team 2\\carapp.wpf\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5C8BE412-3B29-4DD3-9423-F0B95B540BDB}|CarApp.Wpf\\CarApp.Wpf.csproj|solutionrelative:carapp.wpf\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2C29DD1-69D7-4638-B46F-33A87BC6C570}|CarApp.Core\\CarApp.Core.csproj|c:\\users\\admin\\onedrive\\dokumenter\\datamatiker ucl\\programmering\\github\\carapp team 2\\carapp.core\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2C29DD1-69D7-4638-B46F-33A87BC6C570}|CarApp.Core\\CarApp.Core.csproj|solutionrelative:carapp.core\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C8BE412-3B29-4DD3-9423-F0B95B540BDB}|CarApp.Wpf\\CarApp.Wpf.csproj|c:\\users\\admin\\onedrive\\dokumenter\\datamatiker ucl\\programmering\\github\\carapp team 2\\carapp.wpf\\viewmodels\\carviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C8BE412-3B29-4DD3-9423-F0B95B540BDB}|CarApp.Wpf\\CarApp.Wpf.csproj|solutionrelative:carapp.wpf\\viewmodels\\carviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2C29DD1-69D7-4638-B46F-33A87BC6C570}|CarApp.Core\\CarApp.Core.csproj|c:\\users\\admin\\onedrive\\dokumenter\\datamatiker ucl\\programmering\\github\\carapp team 2\\carapp.core\\models\\fuelcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2C29DD1-69D7-4638-B46F-33A87BC6C570}|CarApp.Core\\CarApp.Core.csproj|solutionrelative:carapp.core\\models\\fuelcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5C8BE412-3B29-4DD3-9423-F0B95B540BDB}|CarApp.Wpf\\CarApp.Wpf.csproj|c:\\users\\admin\\onedrive\\dokumenter\\datamatiker ucl\\programmering\\github\\carapp team 2\\carapp.wpf\\views\\carview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -27,28 +39,8 @@
       "RelativeMoniker": "D:0:0:{5C8BE412-3B29-4DD3-9423-F0B95B540BDB}|CarApp.Wpf\\CarApp.Wpf.csproj|solutionrelative:carapp.wpf\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C8BE412-3B29-4DD3-9423-F0B95B540BDB}|CarApp.Wpf\\CarApp.Wpf.csproj|c:\\users\\admin\\onedrive\\dokumenter\\datamatiker ucl\\programmering\\github\\carapp team 2\\carapp.wpf\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5C8BE412-3B29-4DD3-9423-F0B95B540BDB}|CarApp.Wpf\\CarApp.Wpf.csproj|solutionrelative:carapp.wpf\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C8BE412-3B29-4DD3-9423-F0B95B540BDB}|CarApp.Wpf\\CarApp.Wpf.csproj|c:\\users\\admin\\onedrive\\dokumenter\\datamatiker ucl\\programmering\\github\\carapp team 2\\carapp.wpf\\viewmodels\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C8BE412-3B29-4DD3-9423-F0B95B540BDB}|CarApp.Wpf\\CarApp.Wpf.csproj|solutionrelative:carapp.wpf\\viewmodels\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{666E1D56-F21C-2DEF-624A-6C8713B49DEE}|CarApp\\CarApp.csproj|c:\\users\\admin\\onedrive\\dokumenter\\datamatiker ucl\\programmering\\github\\carapp team 2\\carapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{666E1D56-F21C-2DEF-624A-6C8713B49DEE}|CarApp\\CarApp.csproj|solutionrelative:carapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5C8BE412-3B29-4DD3-9423-F0B95B540BDB}|CarApp.Wpf\\CarApp.Wpf.csproj|c:\\users\\admin\\onedrive\\dokumenter\\datamatiker ucl\\programmering\\github\\carapp team 2\\carapp.wpf\\carapp.wpf.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{5C8BE412-3B29-4DD3-9423-F0B95B540BDB}|CarApp.Wpf\\CarApp.Wpf.csproj|solutionrelative:carapp.wpf\\carapp.wpf.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{666E1D56-F21C-2DEF-624A-6C8713B49DEE}|CarApp\\CarApp.csproj|c:\\users\\admin\\onedrive\\dokumenter\\datamatiker ucl\\programmering\\github\\carapp team 2\\carapp\\carapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{666E1D56-F21C-2DEF-624A-6C8713B49DEE}|CarApp\\CarApp.csproj|solutionrelative:carapp\\carapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2C29DD1-69D7-4638-B46F-33A87BC6C570}|CarApp.Core\\CarApp.Core.csproj|c:\\users\\admin\\onedrive\\dokumenter\\datamatiker ucl\\programmering\\github\\carapp team 2\\carapp.core\\carapp.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A2C29DD1-69D7-4638-B46F-33A87BC6C570}|CarApp.Core\\CarApp.Core.csproj|solutionrelative:carapp.core\\carapp.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 222,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -73,8 +65,12 @@
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "CarView.xaml.cs",
               "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarApp.Wpf\\Views\\CarView.xaml.cs",
               "RelativeDocumentMoniker": "CarApp.Wpf\\Views\\CarView.xaml.cs",
@@ -82,37 +78,35 @@
               "RelativeToolTip": "CarApp.Wpf\\Views\\CarView.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-19T11:45:48.872Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-19T11:45:48.872Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "CarView.xaml",
               "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarApp.Wpf\\Views\\CarView.xaml",
               "RelativeDocumentMoniker": "CarApp.Wpf\\Views\\CarView.xaml",
               "ToolTip": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarApp.Wpf\\Views\\CarView.xaml",
               "RelativeToolTip": "CarApp.Wpf\\Views\\CarView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-19T11:40:26.694Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-19T11:40:26.694Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "CarViewModel.cs",
               "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarApp.Wpf\\ViewModels\\CarViewModel.cs",
               "RelativeDocumentMoniker": "CarApp.Wpf\\ViewModels\\CarViewModel.cs",
               "ToolTip": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarApp.Wpf\\ViewModels\\CarViewModel.cs",
               "RelativeToolTip": "CarApp.Wpf\\ViewModels\\CarViewModel.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAAwGMAAABgAAAAAAAAAA==",
+              "ViewState": "AgIAAGcAAAAAAAAAAADwv3kAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-19T11:05:08.91Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarApp.Wpf\\App.xaml.cs",
               "RelativeDocumentMoniker": "CarApp.Wpf\\App.xaml.cs",
@@ -120,25 +114,23 @@
               "RelativeToolTip": "CarApp.Wpf\\App.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-19T11:33:17.569Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-19T11:33:17.569Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Car.cs",
               "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarApp.Core\\Models\\Car.cs",
               "RelativeDocumentMoniker": "CarApp.Core\\Models\\Car.cs",
               "ToolTip": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarApp.Core\\Models\\Car.cs",
               "RelativeToolTip": "CarApp.Core\\Models\\Car.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-19T11:15:55.807Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-19T11:15:55.807Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "FuelCar.cs",
               "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarApp.Core\\Models\\FuelCar.cs",
               "RelativeDocumentMoniker": "CarApp.Core\\Models\\FuelCar.cs",
@@ -146,32 +138,31 @@
               "RelativeToolTip": "CarApp.Core\\Models\\FuelCar.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-19T10:47:32.992Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-19T10:47:32.992Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "RelayCommand.cs",
               "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarApp.Wpf\\ViewModels\\RelayCommand.cs",
               "RelativeDocumentMoniker": "CarApp.Wpf\\ViewModels\\RelayCommand.cs",
               "ToolTip": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarApp.Wpf\\ViewModels\\RelayCommand.cs",
               "RelativeToolTip": "CarApp.Wpf\\ViewModels\\RelayCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-19T11:03:54.865Z"
+              "WhenOpened": "2026-05-19T11:03:54.865Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarApp.Wpf\\App.xaml",
               "RelativeDocumentMoniker": "CarApp.Wpf\\App.xaml",
               "ToolTip": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarApp.Wpf\\App.xaml",
               "RelativeToolTip": "CarApp.Wpf\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-19T09:03:55.436Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-19T09:03:55.436Z"
             },
             {
               "$type": "Document",
@@ -187,39 +178,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CarApp.csproj",
-              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarApp\\CarApp.csproj",
-              "RelativeDocumentMoniker": "CarApp\\CarApp.csproj",
-              "ToolTip": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarApp\\CarApp.csproj",
-              "RelativeToolTip": "CarApp\\CarApp.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-30T08:24:10.566Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarApp\\Program.cs",
               "RelativeDocumentMoniker": "CarApp\\Program.cs",
               "ToolTip": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarApp\\Program.cs",
               "RelativeToolTip": "CarApp\\Program.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwA8AAABZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-05T09:04:37.615Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CarApp.Core.csproj",
-              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarApp.Core\\CarApp.Core.csproj",
-              "RelativeDocumentMoniker": "CarApp.Core\\CarApp.Core.csproj",
-              "ToolTip": "C:\\Users\\admin\\OneDrive\\Dokumenter\\Datamatiker UCL\\Programmering\\GitHub\\CarApp Team 2\\CarApp.Core\\CarApp.Core.csproj",
-              "RelativeToolTip": "CarApp.Core\\CarApp.Core.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-30T07:57:46.995Z"
             }
           ]
         }
