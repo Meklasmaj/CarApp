@@ -21,12 +21,12 @@
                 <StackPanel Width="160" Margin="4">
                     <Label Content="Brand" Foreground="White"/>
                     <!-- TextBox bundet til SelectedCar.Brand -->
-                    <TextBox Text="{Binding Brand, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                    <TextBox Text="{Binding SelectedCar._brand, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
                 </StackPanel>
                 <StackPanel Width="160" Margin="4">
                     <Label Content="Model" Foreground="White"/>
                     <!-- TextBox bundet til SelectedCar.Model -->
-                    <TextBox Text="{Binding Model, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                    <TextBox Text="{Binding SelectedCar._model, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
                 </StackPanel>
                 <StackPanel Width="80" Margin="4">
                     <Label Content="Year" Foreground="White"/>
@@ -36,7 +36,7 @@
                 <StackPanel Width="120" Margin="4">
                     <Label Content="Licenseplate" Foreground="White"/>
                     <!-- TextBox bundet til SelectedCar.LicensePlate -->
-                    <TextBox Text="{Binding LicensePlate, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                    <TextBox Text="{Binding SelectedCar._licensePlate, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
                 </StackPanel>
                 <StackPanel Width="120" Margin="4">
                     <Label Content="Odometer" Foreground="White"/>
