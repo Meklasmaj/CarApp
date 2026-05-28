@@ -84,7 +84,7 @@
                     <GridViewColumn Header="Brand"       DisplayMemberBinding="{Binding _brand}"       Width="120"/>
                     <GridViewColumn Header="Model"        DisplayMemberBinding="{Binding _model}"       Width="120"/>
                     <!--<GridViewColumn Header="Year"          DisplayMemberBinding="{Binding _year}"        Width="60"/>-->
-                    <GridViewColumn Header="Licenseplate"  DisplayMemberBinding="{Binding _licensePlate}" Width="120"/>
+                    <GridViewColumn Header="Licenseplate" DisplayMemberBinding="{Binding _licensePlate}" Width="120"/>
                     <!--<GridViewColumn Header="Odometer"  DisplayMemberBinding="{Binding _odometer}" Width="120"/>
                     <GridViewColumn Header="Usage"  DisplayMemberBinding="{Binding Usage}" Width="120"/>
                     <GridViewColumn Header="Capacity"  DisplayMemberBinding="{Binding Capacity}" Width="120"/>-->

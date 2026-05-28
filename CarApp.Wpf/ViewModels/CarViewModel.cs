@@ -3,6 +3,7 @@ using CarApp.Core.Persistence;
 using System;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
+using System.Runtime.ConstrainedExecution;
 using System.Windows;
 using System.Windows.Input;
 
@@ -20,7 +21,16 @@ namespace CarApp.Wpf.ViewModels
             get => _selectedCar;
             set
             {
-                _selectedCar = value;
+                // Klon bilen så vi ikke redigerer direkte i _cars
+                if (value is FuelCar fc)
+                    _selectedCar = new FuelCar(fc._brand, fc._model, fc._year, fc._licensePlate,
+                        fc._odometer, fc.Usage, fc.Capacity, fc.IsEngineOn, fc.GetFuelType(), fc.Price);
+                else if (value is ElectricCar ec)
+                    _selectedCar = new ElectricCar(ec._brand, ec._model, ec._year, ec._licensePlate,
+                        ec._odometer, ec.Usage, ec.Capacity, ec.IsEngineOn, ec.GetFuelType(), ec.Price);
+                else
+                    _selectedCar = value;
+
                 OnPropertyChanged(nameof(SelectedCar));
                 (UpdateCarCommand as RelayCommand)?.RaiseCanExecuteChanged();
                 (DeleteCarCommand as RelayCommand)?.RaiseCanExecuteChanged();
