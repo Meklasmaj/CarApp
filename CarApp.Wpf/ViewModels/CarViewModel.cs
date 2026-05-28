@@ -44,6 +44,9 @@ namespace CarApp.Wpf.ViewModels
             _repository = repository;
             Cars = new ObservableCollection<Car>(_repository.GetAll());
             Cars.Add(new FuelCar("Mazda", "3", DateTime.Now.Year, "LD12345", 0, 0, 0, false, FuelType.Benzin, 0));
+            Cars.Add(new FuelCar("Ford", "S-Max", DateTime.Now.Year, "DE47803", 0, 0, 0, false, FuelType.Benzin, 0));
+            Cars.Add(new FuelCar("Kia", "EV7", DateTime.Now.Year, "AD14532", 0, 0, 0, false, FuelType.Benzin, 0));
+            Cars.Add(new FuelCar("Mercedes", "e320", DateTime.Now.Year, "CD45892", 0, 0, 0, false, FuelType.Benzin, 0));
             SelectedCar = new FuelCar("", "", DateTime.Now.Year, "", 0, 0, 0, false, FuelType.Benzin, 0);
 
 
@@ -59,10 +62,6 @@ namespace CarApp.Wpf.ViewModels
         {
             // TODO: Returner true hvis SelectedCar ikke er null og
             //       LicensePlate, Brand og Model ikke er tomme
-            Console.WriteLine(SelectedCar != null);
-            Console.WriteLine(!string.IsNullOrWhiteSpace(SelectedCar._brand));
-            Console.WriteLine(!string.IsNullOrWhiteSpace(SelectedCar._model));
-            Console.WriteLine(!string.IsNullOrWhiteSpace(SelectedCar._licensePlate));
             return SelectedCar != null &&
                    !string.IsNullOrWhiteSpace(SelectedCar._brand) &&
                    !string.IsNullOrWhiteSpace(SelectedCar._model) &&
